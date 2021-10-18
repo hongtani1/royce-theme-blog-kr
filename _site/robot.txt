@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://hongtani.com/sitemap.xml
-#DaumWebMasterTool:8a38db6bfa29808ba3373521f0361156dc9848f47f1bf3d8dff93d87942241e4:92ZRrV5+vVp+TqI4sSWdhA==
+#DaumWebMasterTool:79d5462d6f3575776c71866195a8987016b054ef3b5d7466a929344ae67a8ff5:92ZRrV5+vVp+TqI4sSWdhA==
