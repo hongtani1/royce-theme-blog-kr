@@ -1,67 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/a-week-with-the-apple-watch</loc>
-<lastmod>2018-01-12T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/advanced-markdown-tips</loc>
-<lastmod>2018-02-07T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/what-is-jekyll</loc>
-<lastmod>2018-02-10T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/options-for-creating-new-site-with-jekyll</loc>
-<lastmod>2018-03-12T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/react-conferences-to-attend-in-2018</loc>
-<lastmod>2018-03-12T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/working-from-home</loc>
-<lastmod>2018-04-02T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/how-to-start-learning-blockchain-development</loc>
-<lastmod>2019-01-01T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Installing-multiple-versions-of-node-js</loc>
-<lastmod>2019-01-02T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/javascript-design-patterns</loc>
-<lastmod>2019-01-03T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/choosing-the-best-front-end-framework</loc>
-<lastmod>2019-01-05T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about</loc>
-</url>
-<url>
-<loc>http://localhost:4000/contact</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/search</loc>
-</url>
-<url>
-<loc>http://localhost:4000/style-guide</loc>
-</url>
-<url>
-<loc>http://localhost:4000/thank-you</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page2/</loc>
-</url>
+  
+    <url>
+      <loc>http://localhost:4000/choosing-the-best-front-end-framework</loc>
+      
+        <lastmod>2019-01-05T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/javascript-design-patterns</loc>
+      
+        <lastmod>2019-01-03T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/Installing-multiple-versions-of-node-js</loc>
+      
+        <lastmod>2019-01-02T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/how-to-start-learning-blockchain-development</loc>
+      
+        <lastmod>2019-01-01T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/working-from-home</loc>
+      
+        <lastmod>2018-04-02T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/react-conferences-to-attend-in-2018</loc>
+      
+        <lastmod>2018-03-12T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/options-for-creating-new-site-with-jekyll</loc>
+      
+        <lastmod>2018-03-12T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/what-is-jekyll</loc>
+      
+        <lastmod>2018-02-10T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/advanced-markdown-tips</loc>
+      
+        <lastmod>2018-02-07T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/a-week-with-the-apple-watch</loc>
+      
+        <lastmod>2018-01-12T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
 </urlset>
