@@ -1,0 +1,67 @@
+# Site setings
+name: 'HONGTANI'
+description: 'Digital Marketer'
+meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: 'authorimage.jpg'
+  greetings: "안녕하세요, 저는 개발과 디자인을 공부하여 마케팅에 활용하는 디지털마케터입니다. 이 블로그는 디지털 환경에서 브랜드를 탄탄하게 성장시키기 위한 공부의 과정을 기록합니다."
+favicon: 'assets/images/favicon.ico'
+baseurl:
+production_url: https://hongtani.com/
+disqus: 'hongtani'
+mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+# Add your GA Tracking Id
+ga_analytics:
+
+# Contact form setings
+email: hongtani625@gmail.com
+contact_page_description: "궁금하신 부분이나 문의하실 내용은 아래 양식에 맞춰 작성하여 전달 부탁드립니다."
+thankyou_page_description: "작성이 완료되었습니다. 메일은 확인하는 대로 답장 드리겠습니다. 감사합니다!"
+
+# Social links
+facebook: 'username'
+#github: 'justgoodthemes'
+#codepen: 'username'
+#dribbble: 'username'
+#medium: '@username'
+instagram: 'username'
+#pinterest: 'username'
+#linkedin: 'username'
+#producthunt: '@username'
+#quora: 'username'
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Style Guide
+    url: /style-guide
+  - text: Contact Me
+    url: /contact
+  - text: Search
+    url: /search
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HONGTANI</title>
+    <description>Digital Marketer</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Oct 2021 23:33:51 +0900</pubDate>
+    <lastBuildDate>Mon, 18 Oct 2021 23:33:51 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Choosing the Best Front-end Framework</title>
+        <description>&lt;p&gt;In computer science, a &lt;strong&gt;software framework&lt;/strong&gt; is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. A software framework provides a standard way to build and deploy applications.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Walking on water and developing software from a specification are easy if both are frozen.” &lt;cite&gt;- Edward V Berard -&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A software framework is a universal, reusable software environment that provides particular functionality as part of a larger software platform to facilitate development of software applications, products and solutions. Software frameworks may include support programs, compilers, code libraries, tool sets, and application programming interfaces (APIs) that bring together all the different components to enable development of a project or system. &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_framework&quot;&gt;(Source)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;react&quot;&gt;React&lt;/h2&gt;
+
+&lt;p&gt;In computing, &lt;a href=&quot;https://reactjs.org/&quot;&gt;React&lt;/a&gt; (sometimes styled React.js or ReactJS) is a JavaScript library for building user interfaces.&lt;/p&gt;
+
+&lt;p&gt;It is maintained by Facebook, Instagram and a community of individual developers and corporations.&lt;/p&gt;
+
+&lt;p&gt;React allows developers to create large web-applications that use data and can change over time without reloading the page. It aims primarily to provide speed, simplicity, and scalability. React processes only user interfaces in applications. This corresponds to View in the Model-View-Controller (MVC) pattern, and can be used in combination with other JavaScript libraries or frameworks in &lt;a href=&quot;https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller&quot;&gt;MVC&lt;/a&gt;, such as AngularJS.&lt;/p&gt;
+
+&lt;h2 id=&quot;vue&quot;&gt;Vue&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue.js&lt;/a&gt; &lt;em&gt;(commonly referred to as Vue; pronounced /vjuː/, like view)&lt;/em&gt; is an open-source progressive JavaScript framework for building user interfaces. Integration into projects that use other JavaScript libraries is made easy with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;ember&quot;&gt;Ember&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://emberjs.com/&quot;&gt;Ember.js&lt;/a&gt; is an open-source JavaScript web framework, based on the Model–view–viewmodel (MVVM) pattern. It allows developers to create scalable single-page web applications by incorporating common idioms and best practices into the framework.&lt;/p&gt;
+
+&lt;p&gt;Ember is used on many popular websites, including Discourse, Groupon, LinkedIn, Vine, Live Nation, Nordstrom, Twitch.tv and Chipotle. Although primarily considered a framework for the web, it is also possible to build desktop and mobile applications in Ember. The most notable example of an Ember desktop application is Apple Music, a feature of the iTunes desktop application.&lt;/p&gt;
+
+&lt;h2 id=&quot;angular&quot;&gt;Angular&lt;/h2&gt;
+
+&lt;p&gt;AngularJS &lt;em&gt;(commonly referred to as “Angular.js” or “AngularJS 1.X”)&lt;/em&gt; is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement Apache Cordova, the framework used for developing cross-platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. In 2014, the original AngularJS team began working on Angular (Application Platform).&lt;/p&gt;
+
+&lt;p&gt;The AngularJS framework works by first reading the HTML page, which has additional custom tag attributes embedded into it. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.&lt;/p&gt;
+
+&lt;p&gt;According to JavaScript analytics service Libscore, AngularJS is used on the websites of Wolfram Alpha, NBC, Walgreens, Intel, Sprint, ABC News, and about 12,000 other sites out of 1 million tested in October 2016. AngularJS is currently in the top 100 of the most starred projects on GitHub.&lt;/p&gt;
+
+&lt;p&gt;AngularJS is the frontend part of the &lt;strong&gt;MEAN stack&lt;/strong&gt;, consisting of MongoDB database, &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express.js&lt;/a&gt; web application server framework, Angular.js itself, and Node.js server runtime environment.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Jan 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/choosing-the-best-front-end-framework</link>
+        <guid isPermaLink="true">http://localhost:4000/choosing-the-best-front-end-framework</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Tips</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Learning JavaScript Design Patterns</title>
+        <description>&lt;p&gt;A pattern is a reusable solution that can be applied to commonly occurring problems in software design - in our case - in writing JavaScript web applications.&lt;/p&gt;
+
+&lt;p&gt;In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.&lt;/p&gt;
+
+&lt;p&gt;It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.&lt;/p&gt;
+
+&lt;p&gt;Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply mutable state may be unsuited for functional programming languages, some patterns can be rendered unnecessary in languages that have built-in support for solving the problem they are trying to solve, and object-oriented patterns are not necessarily suitable for non-object-oriented languages.&lt;/p&gt;
+
+&lt;p&gt;Design patterns may be viewed as a structured approach to computer programming intermediate between the levels of a programming paradigm and a concrete algorithm.&lt;/p&gt;
+
+&lt;p&gt;Design patterns are advanced object-oriented solutions to commonly occurring software problems. Patterns are about reusable designs and interactions of objects. Each pattern has a name and becomes part of a vocabulary when discussing complex design solutions.&lt;/p&gt;
+
+&lt;h2 id=&quot;standardization&quot;&gt;Standardization&lt;/h2&gt;
+
+&lt;p&gt;JavaScript, also known as ECMAScript is a dynamic programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.&lt;/p&gt;
+
+&lt;p&gt;JavaScript (at least the strict subset asm.js) is also considered an “assembly language of the web” – a compile target of source-to-source compilers – for making client side web applications, using other programming languages, supported by all the major browsers without plug-ins.&lt;/p&gt;
+
+&lt;p&gt;It is also used in server-side network programming with runtime environments such as Node.js, game development and the creation of desktop and mobile applications.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Jan 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/javascript-design-patterns</link>
+        <guid isPermaLink="true">http://localhost:4000/javascript-design-patterns</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Tips</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing Multiple Versions of Node.js Using NVM</title>
+        <description>&lt;p&gt;&lt;strong&gt;Node.js&lt;/strong&gt; is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage’s HTML, to be run client-side by a JavaScript engine in the user’s web browser.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user’s web browser.&lt;/p&gt;
+
+&lt;p&gt;Consequently, Node.js has become one of the foundational elements of the &lt;strong&gt;“JavaScript everywhere”&lt;/strong&gt; paradigm, allowing web application development to unify around a single programming language, rather than rely on a different language for writing server side scripts.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.”
+&lt;cite&gt;- Eric S. Raymond -&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Though .js is the conventional filename extension for JavaScript code, the name “Node.js” does not refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).&lt;/p&gt;
+
+&lt;p&gt;The Node.js distributed development project, governed by the Node.js Foundation, is facilitated by the Linux Foundation’s Collaborative Projects program.&lt;/p&gt;
+
+&lt;p&gt;Corporate users of Node.js software include IBM, LinkedIn, Microsoft, Netflix, PayPal, Rakuten, SAP, Voxer and Yahoo!.&lt;/p&gt;
+
+&lt;p&gt;##History&lt;/p&gt;
+
+&lt;p&gt;Node.js was originally written by &lt;a href=&quot;https://en.wikipedia.org/wiki/Ryan_Dahl&quot;&gt;Ryan Dahl&lt;/a&gt; in 2009, about thirteen years after the introduction of the first server-side JavaScript environment, Netscape’s LiveWire Pro Web. The initial release supported only Linux and Mac OS X. Its development and maintenance was led by Dahl and later sponsored by Joyent.&lt;/p&gt;
+
+&lt;p&gt;Dahl was inspired to create Node.js after seeing a file upload progress bar on Flickr. The browser did not know how much of the file had been uploaded and had to query the Web server. Dahl desired an easier way.&lt;/p&gt;
+
+&lt;p&gt;Dahl criticized the limited possibilities of the most popular web server in 2009, Apache HTTP Server, to handle a lot of concurrent connections (up to 10,000 and more) and the most common way of creating code (sequential programming), when code either blocked the entire process or implied multiple execution stacks in the case of simultaneous connections.&lt;/p&gt;
+
+&lt;p&gt;Dahl demonstrated the project at the inaugural European JSConf on November 8, 2009. Node.js combined Google’s V8 JavaScript engine, an event loop, and a low-level I/O API.&lt;/p&gt;
+
+&lt;p&gt;In January 2010, a package manager was introduced for the Node.js environment called npm. The package manager makes it easier for programmers to publish and share source code of Node.js libraries and is designed to simplify installation, updating, and uninstallation of libraries.&lt;/p&gt;
+
+&lt;p&gt;In June 2011, Microsoft and Joyent implemented a native Windows version of Node.js. The first Node.js build supporting Windows was released in July 2011.&lt;/p&gt;
+
+&lt;p&gt;In January 2012, Dahl stepped aside, promoting coworker and npm creator Isaac Schlueter to manage the project. In January 2014, Schlueter announced that Timothy J. Fontaine would lead the project.&lt;/p&gt;
+
+&lt;p&gt;In December 2014, Fedor Indutny started io.js, a fork of Node.js. Due to the internal conflict over Joyent’s governance, io.js was created as an open governance alternative with a separate technical committee. Unlike Node.js, the authors planned to keep io.js up-to-date with the latest releases of the Google V8 JavaScript engine.&lt;/p&gt;
+
+&lt;p&gt;In February 2015, the intent to form a neutral Node.js Foundation was announced. By June 2015, the Node.js and io.js communities voted to work together under the Node.js Foundation.&lt;/p&gt;
+
+&lt;p&gt;In September 2015, Node.js v0.12 and io.js v3.3 were merged back together into Node v4.0. This brought V8 ES6 features into Node.js, and a long-term support release cycle. As of 2016, the io.js website recommends that developers switch back to Node.js and that no further releases of io.js are planned due to the merger.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/Installing-multiple-versions-of-node-js</link>
+        <guid isPermaLink="true">http://localhost:4000/Installing-multiple-versions-of-node-js</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Tips</category>
+        
+        <category>Node</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>How To Start Learning Blockchain Development</title>
+        <description>&lt;p&gt;A blockchain, originally block chain, is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data. By design, a blockchain is inherently resistant to modification of the data. It is &lt;em&gt;“an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable and permanent way”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively adhering to a protocol for validating new blocks. Once recorded, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which requires collusion of the network majority.&lt;/p&gt;
+
+&lt;p&gt;Blockchains are secure by design and are an example of a distributed computing system with high Byzantine fault tolerance. Decentralized consensus has therefore been achieved with a blockchain. This makes blockchains potentially suitable for the recording of events, medical records, and other records management activities, such as identity management, transaction processing, documenting provenance, food traceability or voting.&lt;/p&gt;
+
+&lt;p&gt;The first blockchain was conceptualized in 2008 by an anonymous person or group known as Satoshi Nakamoto and implemented in 2009 as a core component of bitcoin where it serves as the public ledger for all transactions. The invention of the blockchain for bitcoin made it the first digital currency to solve the double spending problem without the need of a trusted authority or central server. The bitcoin design has been the inspiration for other applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+
+&lt;p&gt;The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. In 1992, Bayer, Haber and Stornetta incorporated Merkle trees to the design, which improved its efficiency by allowing several documents to be collected into one block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=entropy&amp;amp;cs=tinysrgb&amp;amp;w=1080&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;amp;s=163e3ea37d2c0fda3f586d5552752f59#wide&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”Bitcoin is the beginning of something great: a currency without a government, something necessary and imperative.” &lt;cite&gt;– Peter Thiel, Co-Founder of PayPal –&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first blockchain was conceptualised by an anonymous person or group known as Satoshi Nakamoto in 2008. It was implemented the following year as a core component of the digital currency bitcoin, where it serves as the public ledger for all transactions on the network. By using a blockchain, bitcoin became the first digital currency to solve the double spending problem without requiring a trusted administrator and has been the inspiration for many additional applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+
+&lt;p&gt;A blockchain is a decentralized and distributed digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the collusion of the network. This allows the participants to verify and audit transactions inexpensively. A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests. The result is a robust workflow where participants’ uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset. It confirms that each unit of value was transferred only once, solving the long-standing problem of double spending.&lt;/p&gt;
+
+&lt;p&gt;Blockchains have been described as a value-exchange protocol. This blockchain-based exchange of value can be completed more quickly, more safely and more cheaply than with traditional systems. A blockchain can assign title rights because it provides a record that compels offer and acceptance. &lt;a href=&quot;https://en.wikipedia.org/wiki/Blockchain&quot;&gt;(Source)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/how-to-start-learning-blockchain-development</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-start-learning-blockchain-development</guid>
+        
+        <category>Tips</category>
+        
+        <category>Development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Advantages &amp; Disadvantages of Working from Home</title>
+        <description>&lt;p&gt;A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM (work at home mom) or a WAHD (work at home dad).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Entrepreneurs choose to run businesses from home for a variety of reasons, including lower business expenses, personal health limitations, eliminating commuting, or in order to have a more flexible schedule. This flexibility can give an entrepreneur more options when planning tasks, business and non-business, including parenting duties. While some home-based entrepreneurs opt for childcare outside the home,[1] others integrate child rearing into their work day and workspace. The latter are considered work-at-home parents.&lt;/p&gt;
+
+&lt;p&gt;Many WAHPs start home-based businesses in order to care for their children while still creating income. The desire to care for one’s own children, the incompatibility of a 9-to-5 work day with school hours or sick days, and the expense of childcare prompt many parents to change or leave their jobs in the workforce to be available to their children. Many WAHPs build a business schedule that can be integrated with their parenting duties.&lt;/p&gt;
+
+&lt;h1 id=&quot;types-of-work&quot;&gt;Types Of Work&lt;/h1&gt;
+
+&lt;p&gt;Common types of work found in work-at-home schemes include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Stuffing envelopes. The victim sees a flyer advertising a job stuffing envelopes, with “up to 1,000 envelopes a week that you can stuff… with postage and address already affixed!”, offering a payment of $1–2 per envelope. To apply for the job, the victim is required to send a self-addressed stamped envelope for information and a small processing fee. In return, the victim is sent a template for the flyer they had originally seen; the envelopes they stuff are from other people who answer the flyer, and the payment is the processing fee.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Assembly of items of some type, such as crafts, jewellery or medical equipment. The worker is required to pay up front for materials and construction kits, and when they attempt to sell the finished products back to the scheme’s organiser, they are told that the products “don’t meet our specifications”, leaving the worker with assembled products and no buyer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Processing medical claims. The worker pays several hundred dollars for medical billing software, but will later discover that most medical clinics process their own bills, outsource their billing to established firms rather than individuals, or have stricter requirements than the purchased software can provide.
+Forum spamming. Usually advertised as some variant of “email processing”, the worker is simply given instructions on spamming online forums, and told they can make money by selling these same instructions online.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sales of a product or service that is difficult or impossible to sell. This is often done in the form of a pyramid scheme.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some adverts offer legitimate forms of work that really do exist, but exaggerate the salary and understate the effort that will have to be put into the job, or exaggerate the amount of work that will be available. Many such ads do not even specify the type of work that will be performed.&lt;/p&gt;
+
+&lt;p&gt;Some similar schemes do not advertise work that would be performed at home, but may instead offer occasional, sporadic work away from home for large payments, paired with a lot of free time.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Apr 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/working-from-home</link>
+        <guid isPermaLink="true">http://localhost:4000/working-from-home</guid>
+        
+        <category>Startup</category>
+        
+        <category>Tips</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>React.js Conferences to Attend in 2018</title>
+        <description>&lt;p&gt;Conferences are a perfect way to make friends and learn from experts. Here are some React conferences to look forward to in 2018.&lt;/p&gt;
+
+&lt;p&gt;Jekyll uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+
+&lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
+
+&lt;p&gt;At the bottom of the editor, you’ll find a toolbar with basic formatting options to help you get started as easily as possible. You’ll also notice that there’s a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
+
+&lt;p&gt;For now, though, let’s run you through some of the basics. You’ll want to make sure you’re editing this post in order to see all the Markdown we’ve used.&lt;/p&gt;
+
+&lt;h2 id=&quot;formatting-text&quot;&gt;Formatting text&lt;/h2&gt;
+
+&lt;p&gt;The most common shortcuts are of course, &lt;strong&gt;bold&lt;/strong&gt; text, &lt;em&gt;italic&lt;/em&gt; text, and &lt;a href=&quot;https://example.com&quot;&gt;hyperlinks&lt;/a&gt;. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD/Ctrl + B&lt;/code&gt; for Bold&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD/Ctrl + I&lt;/code&gt; for Italic&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD/Ctrl + K&lt;/code&gt; for a Link&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMD/Ctrl + H&lt;/code&gt; for a Heading (Press multiple times for h2/h3/h4/etc)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With just a couple of extra characters here and there, you’re well on your way to creating a beautifully formatted story.&lt;/p&gt;
+
+&lt;h2 id=&quot;inserting-images&quot;&gt;Inserting images&lt;/h2&gt;
+
+&lt;p&gt;Images in Markdown look just the same as links, except they’re prefixed with an exclamation mark, like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;![Image description](/path/to/image.jpg)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://casper.ghost.org/v1.0.0/images/computer.jpg#wide&quot; alt=&quot;Computer&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;making-lists&quot;&gt;Making lists&lt;/h2&gt;
+
+&lt;p&gt;Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;. Like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Crack the eggs over a bowl&lt;/li&gt;
+  &lt;li&gt;Whisk them together&lt;/li&gt;
+  &lt;li&gt;Make an omelette&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Remember to buy milk&lt;/li&gt;
+  &lt;li&gt;Feed the cat&lt;/li&gt;
+  &lt;li&gt;Come up with idea for next story&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;adding-quotes&quot;&gt;Adding quotes&lt;/h2&gt;
+
+&lt;p&gt;When you want to pull out a particularly good excerpt in the middle of a piece, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; at the beginning of a paragraph to turn it into a Blockquote. You might’ve seen this formatting before in email clients.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A well placed quote guides a reader through a story, helping them to understand the most important points being made&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;All themes handles blockquotes slightly differently. Sometimes they’ll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;dividing-things-up&quot;&gt;Dividing things up&lt;/h2&gt;
+
+&lt;p&gt;If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt; on a new line will create a sleek divider, anywhere you want it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/react-conferences-to-attend-in-2018</link>
+        <guid isPermaLink="true">http://localhost:4000/react-conferences-to-attend-in-2018</guid>
+        
+        <category>Startups</category>
+        
+        <category>JavaScript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Options for creating a new site with Jekyll</title>
+        <description>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To install the Jekyll site into the directory you’re currently in, run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; . If the existing directory isn’t empty, you can pass the –force option with jekyll new . –force.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; automatically initiates &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; to install the dependencies required. (If you don’t want Bundler to install the gems, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --skip-bundle&lt;/code&gt;.)&lt;/li&gt;
+  &lt;li&gt;By default, the Jekyll site installed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; uses a gem-based theme called Minima. With gem-based themes, some of the directories and files are stored in the theme-gem, hidden from your immediate view.&lt;/li&gt;
+  &lt;li&gt;We recommend setting up Jekyll with a gem-based theme but if you want to start with a blank slate, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new myblog --blank&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;To learn about other parameters you can include with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new --help&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/options-for-creating-new-site-with-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/options-for-creating-new-site-with-jekyll</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Tips</category>
+        
+        <category>Development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>What is Jekyll?</title>
+        <description>&lt;p&gt;No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp;amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.&lt;/p&gt;
+
+&lt;p&gt;Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
+
+&lt;p&gt;You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Feb 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/what-is-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/what-is-jekyll</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Advanced Markdown tips</title>
+        <description>&lt;p&gt;If you’ve gotten pretty comfortable with Markdown in Jekyll, then you may enjoy some more advanced tips about the types of things you can do with it!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using &lt;a href=&quot;http://prismjs.com/&quot;&gt;Prism.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The quick brown &lt;a href=&quot;https://en.wikipedia.org/wiki/Fox&quot; title=&quot;Wikipedia: Fox&quot;&gt;fox&lt;/a&gt;, jumped over the lazy &lt;a href=&quot;https://en.wikipedia.org/wiki/Dog&quot; title=&quot;Wikipedia: Dog&quot;&gt;dog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-footnotes&quot;&gt;Creating footnotes&lt;/h2&gt;
+
+&lt;p&gt;The quick brown fox&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; jumped over the lazy dog&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Foxes are red &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Dogs are usually not red &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 07 Feb 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/advanced-markdown-tips</link>
+        <guid isPermaLink="true">http://localhost:4000/advanced-markdown-tips</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Tips</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Week With the Apple Watch</title>
+        <description>&lt;p&gt;The &lt;strong&gt;Apple Watch&lt;/strong&gt; is a smartwatch developed by Apple Inc. It incorporates fitness tracking and health-oriented capabilities as well as integration with iOS and other Apple products and services. The device is available in four variants: Apple Watch Sport, Apple Watch, Apple Watch Hermès, and Apple Watch Edition. The Watch is distinguished by different combinations of cases and first or third party interchangeable bands. Apple Watch relies on a wirelessly connected iPhone to perform many of its default functions such as calling and texting. It is compatible with the iPhone 5 or later models running iOS 8.2 or later, through the use of Bluetooth or Wi-Fi.&lt;/p&gt;
+
+&lt;p&gt;Announced by Tim Cook on September 9, 2014, the device was available for pre-order on April 10 and began shipping on April 24, 2015. The Apple Watch quickly became the best-selling wearable device, with the shipment of 4.2 million smartwatches in the second quarter of 2015, according to analyst firm Canalys.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You can only do so many things great, and you should cast aside everything else.” ― Tim Cook&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Rumors surrounded an Apple-developed wearable back as far as 2011, which conceptualized the device as a variation of the iPod that would curve around the user’s wrist, and feature Siri integration. On February 10, 2013, both The New York Times and The Wall Street Journal reported that Apple was beginning to develop an iOS-based smartwatch with a curved display. On February 12, 2013, Bloomberg reported that Apple’s smartwatch project was “beyond the experimentation phase in its development”, and had a team of at least 100 designers were working on the project. Further reports in March 2013 indicated that Apple planned to release the device by the end of the year. In July 2013, Financial Times reported that Apple had begun hiring more employees to work on the smartwatch, and that it was targeting a possible retail release in late 2014.&lt;/p&gt;
+
+&lt;h2 id=&quot;unveiling--release&quot;&gt;Unveiling &amp;amp; Release&lt;/h2&gt;
+
+&lt;p&gt;In April 2014, Apple CEO Tim Cook told The Wall Street Journal that the company was planning to launch new product categories that year, but did not reveal any specifics. In June 2014, Reuters reported that production was expected to begin in July for a release in October.&lt;/p&gt;
+
+&lt;p&gt;Apple Watch was first unveiled after a classic and ever infamous “We do have ‘one more thing’…” slide, which heard enormous applause, on September 9, 2014 during a press event which also saw the introduction of the iPhone 6. After the reveal video, the auditorium erupted with applause while Tim Cook rolled back his sleeve, revealing an Apple Watch on his wrist. Speaking about the device, Apple CEO Tim Cook explained that Apple Watch was “a new, intimate way to communicate from your wrist, and a comprehensive health and fitness device.”&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/a-week-with-the-apple-watch</link>
+        <guid isPermaLink="true">http://localhost:4000/a-week-with-the-apple-watch</guid>
+        
+        <category>Tips</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
