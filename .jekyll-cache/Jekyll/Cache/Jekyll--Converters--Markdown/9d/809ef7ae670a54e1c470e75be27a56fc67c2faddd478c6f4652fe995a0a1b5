@@ -1,0 +1,54 @@
+I"]<p>If you’ve gotten pretty comfortable with Markdown in Jekyll, then you may enjoy some more advanced tips about the types of things you can do with it!</p>
+
+<p>As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.</p>
+
+<h2 id="special-formatting">Special formatting</h2>
+
+<p>As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:</p>
+
+<ul>
+  <li><del>strike through</del></li>
+  <li>==highlight==</li>
+  <li>*escaped characters*</li>
+</ul>
+
+<h2 id="writing-code-blocks">Writing code blocks</h2>
+
+<p>There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, <code class="language-plaintext highlighter-rouge">like this</code>. Larger snippets of code can be displayed across multiple lines using triple back ticks:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.my-link {
+    text-decoration: underline;
+}
+</code></pre></div></div>
+
+<p>If you want to get really fancy, you can even add syntax highlighting using <a href="http://prismjs.com/">Prism.js</a>.</p>
+
+<h2 id="reference-lists">Reference lists</h2>
+
+<p><strong>The quick brown <a href="https://en.wikipedia.org/wiki/Fox" title="Wikipedia: Fox">fox</a>, jumped over the lazy <a href="https://en.wikipedia.org/wiki/Dog" title="Wikipedia: Dog">dog</a>.</strong></p>
+
+<p>Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.</p>
+
+<h2 id="creating-footnotes">Creating footnotes</h2>
+
+<p>The quick brown fox<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> jumped over the lazy dog<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<p>Footnotes are a great way to add additional contextual details when appropriate. Ghost will automatically add footnote content to the very end of your post.</p>
+
+<h2 id="full-html">Full HTML</h2>
+
+<p>Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Ghost editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Foxes are red <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Dogs are usually not red <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
