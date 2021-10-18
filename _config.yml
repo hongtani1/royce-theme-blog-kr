@@ -1,12 +1,12 @@
 # Site setings
-name: 'HONGTANI123123'
+name: 'HONGTANI'
 description: 'Digital Marketer'
 meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "안녕하세요, 저는 개발과 디자인을 공부하여 마케팅에 활용하는 디지털마케터입니다. 이 블로그는 디지털 환경에서 브랜드를 탄탄하게 성장시키기 위한 공부의 과정을 기록합니다."
+  greetings: "안녕하세요, 개발과 디자인을 공부하여<br> 마케팅에 활용하는 디지털마케터입니다. <br>이 블로그는 디지털 환경에서 브랜드를 탄탄하게<br> 성장시키기 위한 공부의 과정을 기록합니다."
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://hongtani.com/
