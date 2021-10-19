@@ -88,7 +88,7 @@
                         
                         
                         
-                        <li class="menu-item "><a href="/style-guide">Style Guide</a></li>
+                        <li class="menu-item "><a href="/blog-guide">Blog Guide</a></li>
                         
                         
                         
@@ -231,11 +231,30 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         </div>
         <footer class="post-footer">
             <div class="post-share">
-                <span class="post-share-title">Share:</span>
+                <span class="post-share-title">링크 공유하기:</span>
+
+                <script src="/assets/js/kakao.js"></script>
+                  <script>
+                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                      function sendLink() {
+                        Kakao.Link.sendCustom({
+                          templateId: 63753,   // 복사해둔 템플릿 ID
+                          templateArgs: {
+                            title: "React.js Conferences to Attend in 2018",
+                            description: "<p>Conferences are a perfect way to make friends and learn from experts. Here are some React conferences to look forward to in 2018.</p>
+",
+                            url : "/react-conferences-to-attend-in-2018",
+                          },
+                        });
+                      }
+                  </script>
+                  <a id="kakao-link-btn" href="javascript:sendLink()">
+                <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
-                    href="https://twitter.com/share?text=React.js+Conferences+to+Attend+in+2018&amp;url=https://hongtani.com/react-conferences-to-attend-in-2018">Twitter</a>
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/react-conferences-to-attend-in-2018">페이스북</a>
                 <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/react-conferences-to-attend-in-2018">Facebook</a>
+                    href="https://twitter.com/share?text=React.js+Conferences+to+Attend+in+2018&amp;url=https://hongtani.com/react-conferences-to-attend-in-2018">트위터</a>
+
             </div><!-- .share-post -->
         </footer>
         
@@ -359,6 +378,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </section><!-- .tagcloud -->
 
 </main><!-- .site-main -->
+
 
                 
 

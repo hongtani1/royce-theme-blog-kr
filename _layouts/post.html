@@ -34,11 +34,29 @@ post_class: post-template
         </div>
         <footer class="post-footer">
             <div class="post-share">
-                <span class="post-share-title">Share:</span>
+                <span class="post-share-title">링크 공유하기:</span>
+
+                <script src="/assets/js/kakao.js"></script>
+                  <script>
+                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                      function sendLink() {
+                        Kakao.Link.sendCustom({
+                          templateId: 63753,   // 복사해둔 템플릿 ID
+                          templateArgs: {
+                            title: "{{ page.title }}",
+                            description: "{{ page.excerpt }}",
+                            url : "{{ page.url }}",
+                          },
+                        });
+                      }
+                  </script>
+                  <a id="kakao-link-btn" href="javascript:sendLink()">
+                <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
-                    href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}">Twitter</a>
+                    href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}">페이스북</a>
                 <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}">Facebook</a>
+                    href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}">트위터</a>
+
             </div><!-- .share-post -->
         </footer>
         {% include disqus.html %}

@@ -88,7 +88,7 @@
                         
                         
                         
-                        <li class="menu-item "><a href="/style-guide">Style Guide</a></li>
+                        <li class="menu-item "><a href="/blog-guide">Blog Guide</a></li>
                         
                         
                         
@@ -182,11 +182,30 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         </div>
         <footer class="post-footer">
             <div class="post-share">
-                <span class="post-share-title">Share:</span>
+                <span class="post-share-title">링크 공유하기:</span>
+
+                <script src="/assets/js/kakao.js"></script>
+                  <script>
+                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                      function sendLink() {
+                        Kakao.Link.sendCustom({
+                          templateId: 63753,   // 복사해둔 템플릿 ID
+                          templateArgs: {
+                            title: "A Week With the Apple Watch",
+                            description: "<p>The <strong>Apple Watch</strong> is a smartwatch developed by Apple Inc. It incorporates fitness tracking and health-oriented capabilities as well as integration with iOS and other Apple products and services. The device is available in four variants: Apple Watch Sport, Apple Watch, Apple Watch Hermès, and Apple Watch Edition. The Watch is distinguished by different combinations of cases and first or third party interchangeable bands. Apple Watch relies on a wirelessly connected iPhone to perform many of its default functions such as calling and texting. It is compatible with the iPhone 5 or later models running iOS 8.2 or later, through the use of Bluetooth or Wi-Fi.</p>
+",
+                            url : "/a-week-with-the-apple-watch",
+                          },
+                        });
+                      }
+                  </script>
+                  <a id="kakao-link-btn" href="javascript:sendLink()">
+                <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
-                    href="https://twitter.com/share?text=A+Week+With+the+Apple+Watch&amp;url=https://hongtani.com/a-week-with-the-apple-watch">Twitter</a>
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/a-week-with-the-apple-watch">페이스북</a>
                 <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/a-week-with-the-apple-watch">Facebook</a>
+                    href="https://twitter.com/share?text=A+Week+With+the+Apple+Watch&amp;url=https://hongtani.com/a-week-with-the-apple-watch">트위터</a>
+
             </div><!-- .share-post -->
         </footer>
         
@@ -283,6 +302,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </section><!-- .tagcloud -->
 
 </main><!-- .site-main -->
+
 
                 
 

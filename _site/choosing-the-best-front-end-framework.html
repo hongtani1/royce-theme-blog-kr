@@ -88,7 +88,7 @@
                         
                         
                         
-                        <li class="menu-item "><a href="/style-guide">Style Guide</a></li>
+                        <li class="menu-item "><a href="/blog-guide">Blog Guide</a></li>
                         
                         
                         
@@ -206,11 +206,30 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         </div>
         <footer class="post-footer">
             <div class="post-share">
-                <span class="post-share-title">Share:</span>
+                <span class="post-share-title">링크 공유하기:</span>
+
+                <script src="/assets/js/kakao.js"></script>
+                  <script>
+                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                      function sendLink() {
+                        Kakao.Link.sendCustom({
+                          templateId: 63753,   // 복사해둔 템플릿 ID
+                          templateArgs: {
+                            title: "Choosing the Best Front-end Framework",
+                            description: "<p>In computer science, a <strong>software framework</strong> is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. A software framework provides a standard way to build and deploy applications.</p>
+",
+                            url : "/choosing-the-best-front-end-framework",
+                          },
+                        });
+                      }
+                  </script>
+                  <a id="kakao-link-btn" href="javascript:sendLink()">
+                <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
-                    href="https://twitter.com/share?text=Choosing+the+Best+Front-end+Framework&amp;url=https://hongtani.com/choosing-the-best-front-end-framework">Twitter</a>
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/choosing-the-best-front-end-framework">페이스북</a>
                 <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/choosing-the-best-front-end-framework">Facebook</a>
+                    href="https://twitter.com/share?text=Choosing+the+Best+Front-end+Framework&amp;url=https://hongtani.com/choosing-the-best-front-end-framework">트위터</a>
+
             </div><!-- .share-post -->
         </footer>
         
@@ -308,6 +327,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </section><!-- .tagcloud -->
 
 </main><!-- .site-main -->
+
 
                 
 
