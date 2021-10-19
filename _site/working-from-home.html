@@ -201,29 +201,26 @@ Forum spamming. Usually advertised as some variant of “email processing”, th
         <footer class="post-footer">
             <div class="post-share">
                 <span class="post-share-title">링크 공유하기:</span>
-
-                <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-                  <script>
-                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
-                      function sendLink() {
-                        Kakao.Link.sendCustom({
-                          templateId: 63753,   // 복사해둔 템플릿 ID
-                          templateArgs: {
-                            title: "The Advantages & Disadvantages of Working from Home",
-                            description: "<p>A work at home parent is an entrepreneur who works from home and integrates parenting into his or her business activities. They are sometimes referred to as a WAHM (work at home mom) or a WAHD (work at home dad).</p>
-",
-                            url : "/working-from-home",
-                          },
-                        });
-                      }
-                  </script>
                   <a id="kakao-link-btn" href="javascript:sendLink()">
                 <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/working-from-home">페이스북</a>
                 <a target="_blank"
                     href="https://twitter.com/share?text=The+Advantages+%26+Disadvantages+of+Working+from+Home&amp;url=https://hongtani.com/working-from-home">트위터</a>
-
+                    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+                      <script>
+                          Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                          function sendLink() {
+                            Kakao.Link.sendCustom({
+                              templateId: 63753,   // 복사해둔 템플릿 ID
+                              templateArgs: {
+                                title: "The Advantages & Disadvantages of Working from Home",
+                                description: "",
+                                url : "/working-from-home",
+                              },
+                            });
+                          }
+                      </script>
             </div><!-- .share-post -->
         </footer>
         

@@ -223,29 +223,26 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         <footer class="post-footer">
             <div class="post-share">
                 <span class="post-share-title">링크 공유하기:</span>
-
-                <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-                  <script>
-                      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
-                      function sendLink() {
-                        Kakao.Link.sendCustom({
-                          templateId: 63753,   // 복사해둔 템플릿 ID
-                          templateArgs: {
-                            title: "Advanced Markdown tips",
-                            description: "<p>If you’ve gotten pretty comfortable with Markdown in Jekyll, then you may enjoy some more advanced tips about the types of things you can do with it!</p>
-",
-                            url : "/advanced-markdown-tips",
-                          },
-                        });
-                      }
-                  </script>
                   <a id="kakao-link-btn" href="javascript:sendLink()">
                 <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/advanced-markdown-tips">페이스북</a>
                 <a target="_blank"
                     href="https://twitter.com/share?text=Advanced+Markdown+tips&amp;url=https://hongtani.com/advanced-markdown-tips">트위터</a>
-
+                    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+                      <script>
+                          Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                          function sendLink() {
+                            Kakao.Link.sendCustom({
+                              templateId: 63753,   // 복사해둔 템플릿 ID
+                              templateArgs: {
+                                title: "Advanced Markdown tips",
+                                description: "",
+                                url : "/advanced-markdown-tips",
+                              },
+                            });
+                          }
+                      </script>
             </div><!-- .share-post -->
         </footer>
         
