@@ -4,12 +4,14 @@ title: About
 featured_image: /assets/images/pages/about.jpg
 ---
 
-Charles Lavoie is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in **Computer Science**, he worked for three small web shops where he honed his development skills and love for JavaScript.
+Hongtani의 디지털마케팅 블로그에 찾아와 주셔서 대단히 감사합니다. 이곳은 디지털마케팅에 대한 궁금증과 지식을 공유하고, 보다 많은 브랜드가 제대로 된 디지털마케팅을 이해하는 것을 목표로 개설되었습니다.
 
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. **Net** magazine named him a person to watch in 2018.
+디지털마케팅은 말 그대로 디지털 환경에서 마케팅 활동을 잘 할 수 있어야 합니다. 즉, 기본적인 IT지식과 웹/앱 서비스의 디지털 구조를 개발자와 소통할 수 있을만큼 체계적으로 인지하고, 마케팅과 경영학 지식을 활용하여 소비자에게 다가가야 합니다.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+>측정할 수 없으면 관리할 수 없고, 관리할 수 없으면 개선할 수 없다. <cite>피터 드러커 (Peter F.Drucker)</cite>
 
-As a hobby, Daniel authors the most influential JavaScript blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+오늘날 디지털마케팅이 각광받는 것은 마케팅 과정을 추적하고 소비자 행동을 측정할 수 있다는 것이 가장 큰 이유일 것입니다. 하지만 디지털마케팅에서 제대로 된 마케팅과 성과 분석을 하기 위해선 IT지식과 정확하게 측정할 수 있는 분석 Tool 선정과 세팅, 그리고 수집된 데이터를 분석할 기준을 잡을 수 있는 지식이 필수적입니다.
 
-*Thank You for reading!*
+저는 모든 비즈니스를 디지털로 접목하여, 성공적인 디지털마케팅을 운영할 수 있도록 공부하는 과정이 매우 즐겁고 유익합니다. 이 과정에 가장 큰 영향과 도움을 주고 계신 [오픈소스마케팅](https://osoma.kr){:target="_blank"}의 [오경석 대표님](https://ogaeng.com){:target="_blank"}께 가장 큰 감사를 올리며, 64명의 마개이너(마케터+개발자+디자이너의 합성어) 스터디 그룹의 모든 분들께도 감사드립니다.
+
+**Thank You for reading!**
