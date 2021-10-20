@@ -43,18 +43,18 @@ post_class: post-template
                   objectType: 'feed',
                   content: {
                     title: "{{ page.title }}",
-                    imageUrl:
-                      "{{ page.url }}",
+                    description:  document.head.querySelector("[property='og:description']").content,
+                    imageUrl: document.head.querySelector("[property='og:image']").content,
                     link: {
-                      mobileWebUrl: window.location+"",
+                      mobileWebUrl: "http://hongtani.com",
                     },
                   },
                   buttons:
                     {
                       title: '블로그 글 보러가기',
                       link: {
-                        mobileWebUrl: window.location+"",
-                        webUrl: window.location+"",
+                        mobileWebUrl: "http://hongtani.com",
+                        webUrl: "http://hongtani.com",
                       },
                     },
                 });
