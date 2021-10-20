@@ -7613,16 +7613,20 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-      Kakao.init("ef43ad5f94d27bb87810899097e82c0d");
-      function sendLink() {
-        Kakao.Link.sendCustom({
-          templateId: 63753,
-          templateArgs: {
-            title: "{{ page.title }}",
-            description: "{{ page.excerpt }}",
-            url : "{{ page.url }}",
-          },
-        });
-      }
+  <script>
+    Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+    function sendLink() {
+      Kakao.Link.sendCustom({
+        templateId: 63753,   // 복사해둔 템플릿 ID
+        templateArgs: {
+          title: "{{ page.title }}",
+          description: "{{ page.excerpt }}",
+          url : "{{ page.url }}",
+        },
+      });
+    }
+</script>
 
-  document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
+
+
+  // document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
