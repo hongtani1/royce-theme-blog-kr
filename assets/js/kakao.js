@@ -7629,4 +7629,5 @@
 
 
 
-  // document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
+  document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
+  // document.querySelector('#share_btn').addEventListener('click', kakaoShare);
