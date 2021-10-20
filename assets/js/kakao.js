@@ -7613,6 +7613,7 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
+<<<<<<< HEAD
       Kakao.init("ef43ad5f94d27bb87810899097e82c0d");
       function sendLink() {
         Kakao.Link.sendCustom({
@@ -7627,4 +7628,6 @@
 
   document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
 
+=======
+>>>>>>> parent of 753f76a (카카오 쉐어)
 })));
