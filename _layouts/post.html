@@ -46,15 +46,15 @@ post_class: post-template
                     imageUrl:
                       "{{ page.url }}",
                     link: {
-                      mobileWebUrl: 'https://hongtani.com{{ page.url }}',
+                      mobileWebUrl: window.location+"",
                     },
                   },
                   buttons:
                     {
                       title: '블로그 글 보러가기',
                       link: {
-                        mobileWebUrl: 'https://hongtani.com{{ page.url }}',
-                        webUrl: 'https://hongtani.com{{ page.url }}',
+                        mobileWebUrl: window.location+"",
+                        webUrl: window.location+"",
                       },
                     },
                 });
