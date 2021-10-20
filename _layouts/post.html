@@ -43,6 +43,10 @@ post_class: post-template
                       templateId: 63753,   // 복사해둔 템플릿 ID
                       templateArgs: {
                         title: "{{ page.title }}",
+                        imageUrl:
+                          document.querySelector('#post-thumbnail').src,
+                        link: {
+                          mobileWebUrl: 'https://developers.kakao.com',
                         url : "{{ page.url }}",
                       },
                     });
