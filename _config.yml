@@ -1,14 +1,14 @@
 # Site setings
 name: 'HONGTANI'
 description: 'Digital Marketer'
-meta_description: '디지털마케팅 기초 강의와 GA 세팅까지'
+meta_description: '디지털마케팅 기초 강의와 GA 세팅'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
   greetings: "안녕하세요, 디지털마케터 Hongtani의 블로그입니다."
 favicon: 'assets/images/favicon.ico'
-baseurl: 'http://hongtani.com'
+baseurl:
 production_url: https://hongtani.com/
 disqus: 'hongtani'
 mailchimp_url: '//hongtani.us5.list-manage.com/subscribe/post?u=d6e9edd33e0c04cb22fe59a1f&amp;id=9889a03d62'
