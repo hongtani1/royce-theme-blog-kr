@@ -13,7 +13,7 @@ Hongtani의 디지털마케팅 블로그는 jekyll로 만들었습니다. jekyll
 
 
 ## 1. HTML과 CSS 그리고 Javascript
-통상적인 웹에 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.
+일반적으로 웹에 거의 필수적으로 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.
 
 블로그를 이루는 **모든 요소**는 직접 코드 수정하여 원하는 대로 바꿀 수 있습니다.
 
@@ -44,9 +44,8 @@ SEO의 기본으로 널리 알려진 meta태그부터 오픈그래프태그, 캐
 
 ### 블로그에 사용된 SEO 코드 일부
 <pre><code class="language-markup">&lt;title&gt;Blog Guide | HONGTANI&lt;/title&gt;
-&lt;meta name="generator" content="Jekyll v4.2.1" /&gt;
 &lt;meta property="og:title" content="Blog Guide" /&gt;
-&lt;meta property="og:locale" content="en_US" /&gt;
+&lt;meta property="og:locale" content="ko_KR" /&gt;
 &lt;meta name="description" content="Digital Marketer" /&gt;
 &lt;meta property="og:description" content="Digital Marketer" /&gt;
 &lt;link rel="canonical" href="http://hongtani.com/blog-guide" /&gt;

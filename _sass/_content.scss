@@ -42,7 +42,7 @@
 .caption-text {
   margin-bottom: 1.66667em;
   padding-top: 1%;
-  text-align: center; 
+  text-align: center;
 }
 
 .post-tags,
@@ -95,7 +95,7 @@
   color: $gray-darkest;
   font-weight: 400;
   font-size: 72px;
-  font-family: $font-secondary;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   float: left;
   line-height: 0.8;
   margin-right: 15px;
@@ -123,7 +123,7 @@
 .read-next-title,
 .tagcloud-title {
   color: $gray-dark;
-  font-family: $font-primary;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 0.77778rem;
   font-weight: normal;
   letter-spacing: 0.14em;
@@ -274,7 +274,7 @@ ul.archive-posts-list {
 }
 
 .error-link {
-  font-family: $font-secondary;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-style: italic;
 }
 
@@ -298,7 +298,7 @@ ul.archive-posts-list {
 
 .hero-text {
   color: $gray-darkest;
-  font-family: $font-secondary;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: 1.66667rem;
   line-height: 1.2;
   margin: 0;

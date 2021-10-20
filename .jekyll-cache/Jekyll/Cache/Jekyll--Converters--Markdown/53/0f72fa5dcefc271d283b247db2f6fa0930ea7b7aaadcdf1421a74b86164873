@@ -1,4 +1,4 @@
-I"i<p>Hongtani의 디지털마케팅 블로그는 jekyll로 만들었습니다. jekyll은 템플릿, 부분, 유동 코드, 마크다운 등과 같은 동적 구성 요소에서 정적 웹 사이트를 구축하는 데 사용되는 루비(Ruby) 언어로 제공되는 구문 분석 엔진입니다. 일반적으로 사용되는 브런치(brunch)나 티스토리(tistory)나 네이버(Naver)로 만들지 않은 것은, 이 블로그를 통해 직접 <strong>SEO</strong>나 <strong>GA, GTM</strong>등 디지털마케팅의 기술적 요소들을 직접 활용하고 모든 부분에 직접 개입하고 싶었기 때문입니다.</p>
+I"K<p>Hongtani의 디지털마케팅 블로그는 jekyll로 만들었습니다. jekyll은 템플릿, 부분, 유동 코드, 마크다운 등과 같은 동적 구성 요소에서 정적 웹 사이트를 구축하는 데 사용되는 루비(Ruby) 언어로 제공되는 구문 분석 엔진입니다. 일반적으로 사용되는 브런치(brunch)나 티스토리(tistory)나 네이버(Naver)로 만들지 않은 것은, 이 블로그를 통해 직접 <strong>SEO</strong>나 <strong>GA, GTM</strong>등 디지털마케팅의 기술적 요소들을 직접 활용하고 모든 부분에 직접 개입하고 싶었기 때문입니다.</p>
 
 <p>본 페이지에는 어디에 어떤 디지털마케팅 스킬이 적용되었는지 편하게 보실 수 있도록 정리했습니다.</p>
 
@@ -6,7 +6,7 @@
 <br /></p>
 
 <h2 id="1-html과-css-그리고-javascript">1. HTML과 CSS 그리고 Javascript</h2>
-<p>통상적인 웹에 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.</p>
+<p>일반적으로 웹에 거의 필수적으로 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.</p>
 
 <p>블로그를 이루는 <strong>모든 요소</strong>는 직접 코드 수정하여 원하는 대로 바꿀 수 있습니다.</p>
 
@@ -36,9 +36,8 @@
 
 <h3 id="블로그에-사용된-seo-코드-일부">블로그에 사용된 SEO 코드 일부</h3>
 <pre><code class="language-markup">&lt;title&gt;Blog Guide | HONGTANI&lt;/title&gt;
-&lt;meta name="generator" content="Jekyll v4.2.1" /&gt;
 &lt;meta property="og:title" content="Blog Guide" /&gt;
-&lt;meta property="og:locale" content="en_US" /&gt;
+&lt;meta property="og:locale" content="ko_KR" /&gt;
 &lt;meta name="description" content="Digital Marketer" /&gt;
 &lt;meta property="og:description" content="Digital Marketer" /&gt;
 &lt;link rel="canonical" href="http://hongtani.com/blog-guide" /&gt;

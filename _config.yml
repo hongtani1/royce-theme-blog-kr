@@ -6,7 +6,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "안녕하세요, 디지털마케터 Hongtani의 블로그입니다."
+  greetings: "디지털마케터 Hongtani의 블로그입니다."
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://hongtani.com/
@@ -17,7 +17,7 @@ ga_analytics:
 
 # Contact form setings
 email: hongtani625@gmail.com
-contact_page_description: "궁금하신 부분이나 문의하실 내용은 아래 양식에 맞춰 작성하여 전달 부탁드립니다."
+contact_page_description: "문의하실 내용은 아래 양식에 맞춰 작성하여 전달 부탁드립니다."
 thankyou_page_description: "작성이 완료되었습니다. 메일은 확인하는 대로 답장 드리겠습니다. 감사합니다!"
 
 # Social links
