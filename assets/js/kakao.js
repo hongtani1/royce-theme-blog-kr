@@ -7625,4 +7625,7 @@
         });
       }
 
+      document.querySelector('#kakao-link-btn').addEventListener('click', senLink);
+
+
 })));
