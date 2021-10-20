@@ -7625,7 +7625,7 @@
         });
       }
 
-      document.querySelector('#kakao-link-btn').addEventListener('click', senLink);
+      document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
 
 
 })));
