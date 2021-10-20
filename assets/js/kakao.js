@@ -7613,7 +7613,6 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-  <script>
       Kakao.init("ef43ad5f94d27bb87810899097e82c0d");
       function sendLink() {
         Kakao.Link.sendCustom({
@@ -7625,7 +7624,6 @@
           },
         });
       }
-  </script>
 
   document.querySelector('#kakao-link-btn').addEventListener('click', sendLink);
 
