@@ -187,13 +187,14 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
                   function sendLink(){
                     var _title = "Options for creating a new site with Jekyll";
                     var _desc = document.head.querySelector("[property='og:description']").content;
-
+                    var _image = document.body.querySelector('.post-thumbnail').src;
 
                     Kakao.Link.sendCustom({
                       templateId: 63753,   // 복사해둔 템플릿 ID
                       templateArgs: {
                         title: _title,
                         description: _desc,
+                        image: _image;
                         url : "http://hongtani.com/options-for-creating-new-site-with-jekyll",
                       },
                     });

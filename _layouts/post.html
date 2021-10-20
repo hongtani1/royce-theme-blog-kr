@@ -41,13 +41,14 @@ post_class: post-template
                   function sendLink(){
                     var _title = "{{ page.title }}";
                     var _desc = document.head.querySelector("[property='og:description']").content;
-
+                    var _image = document.body.querySelector('.post-thumbnail').src;
 
                     Kakao.Link.sendCustom({
                       templateId: 63753,   // 복사해둔 템플릿 ID
                       templateArgs: {
                         title: _title,
                         description: _desc,
+                        image: _image;
                         url : "http://hongtani.com{{ page.url }}",
                       },
                     });
