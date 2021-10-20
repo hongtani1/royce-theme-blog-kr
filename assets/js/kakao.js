@@ -7613,7 +7613,6 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-  <script>
       Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
       function sendLink() {
         Kakao.Link.sendCustom({
@@ -7625,6 +7624,5 @@
           },
         });
       }
-  </script>
 
 })));
