@@ -7614,7 +7614,7 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
   // 카카오 SDK 초기화
-  Kakao.init('8bfe78c9abc2628869d411e85df2d4d9');
+  Kakao.init('ef43ad5f94d27bb87810899097e82c0d');
   Kakao.isInitialized();
 
   // 카톡 공유 실행 함수
