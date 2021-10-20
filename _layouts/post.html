@@ -39,24 +39,14 @@ post_class: post-template
               <script>
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
                   function sendLink(){
-                    Kakao.Link.sendDefault({
-                  objectType: 'feed',
-                  content: {
-                    title: '{{ page.title }}',
-                    link: {
-                      mobileWebUrl: 'http://hongtani.com',
-                    },
-                  },
-                  buttons:
-                    {
-                      title: '블로그 글 보러가기',
-                      link: {
-                        mobileWebUrl: 'http://hongtani.com',
-                        webUrl: 'http://hongtani.com',
+                    Kakao.Link.sendCustom({
+                      templateId: 63753,   // 복사해둔 템플릿 ID
+                      templateArgs: {
+                        title: "{{ page.title }}",
+                        url : "http://hongtani.com{{ page.url }}",
                       },
-                    },
-                });
-              }
+                    });
+                  }
               </script>
               <a id="kakao-link-btn" href="javascript:sendLink()">
                   <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
