@@ -38,15 +38,35 @@ post_class: post-template
               <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
               <script>
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
-                  function sendLink() {
-                    Kakao.Link.sendCustom({
-                      templateId: 63753,   // 복사해둔 템플릿 ID
-                      templateArgs: {
-                        title: "{{ page.title }}",
-                        url : "{{ page.url }}",
+                  function sendLink(){
+                    Kakao.Link.sendDefault({
+                  objectType: 'feed',
+                  content: {
+                    title: "{{ page.title }}",
+                    imageUrl:
+                      "{{ page.url }}",
+                    link: {
+                      mobileWebUrl: 'http://cookierun-mbti.site?result='+mbti,
+                    },
+                  },
+                  buttons: [
+                    {
+                      title: '결과s 확인',
+                      link: {
+                        mobileWebUrl: 'http://cookierun-mbti.site?result='+mbti,
+                        webUrl: 'http://cookierun-mbti.site?result='+mbti,
                       },
-                    });
-                  }
+                    },
+                    {
+                      title: '테스트하기',
+                      link: {
+                        mobileWebUrl: 'http://cookierun-mbti.site',
+                        webUrl: 'http://cookierun-mbti.site',
+                      },
+                    },
+                  ]
+                });
+              }
               </script>
               <a id="kakao-link-btn" href="javascript:sendLink()">
                   <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
