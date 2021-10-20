@@ -150,6 +150,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             <h1 class="post-title">Advanced Markdown tips</h1>
             
             <p class="post-tags">
+              <span class="post-share-title">태그를 눌러보세요:</span>
                 <a href="/tags/index.html#Jekyll"
                     rel="tag">Jekyll</a>
                 <a href="/tags/index.html#Tips"
@@ -222,29 +223,27 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         </div>
         <footer class="post-footer">
             <div class="post-share">
-
+              <span class="post-share-title">공유하기:</span>
               <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
               <script>
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
                   function sendLink(){
                     var _title = "Advanced Markdown tips";
                     var _desc = document.head.querySelector("[property='og:description']").content;
-                    var _image = document.body.querySelector('.post-thumbnail').src;
+                    var imgUrl = document.querySelector('.post-thumbnail').src;
 
                     Kakao.Link.sendCustom({
                       templateId: 63753,   // 복사해둔 템플릿 ID
                       templateArgs: {
                         title: _title,
                         description: _desc,
-                        image: _image;
-                        url : "http://hongtani.com/advanced-markdown-tips",
+                        imageUrl: imgUrl,
+                        url : "/advanced-markdown-tips",
                       },
                     });
                   }
               </script>
-              <a id="kakao-link-btn" href="javascript:sendLink()">
-                  <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />
-              </a>
+              <a id="kakao-link-btn" href="javascript:sendLink()">카카오톡</a>
                 <a target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/advanced-markdown-tips">페이스북</a>
                 <a target="_blank"
@@ -344,7 +343,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     <!-- Create a sorted array of tags -->
      
     <section class="tagcloud inner">
-        <h2 class="tagcloud-title">Tags</h2>
+        <h2 class="tagcloud-title">하단의 태그를 누르시면 더 많은 포스팅을 보실 수 있습니다.</h2>
         <div class="tag-links">
             
             <a href='/tags/#Development'>Development</a>
@@ -360,6 +359,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             <a href='/tags/#Startups'>Startups</a>
             
             <a href='/tags/#Tips'>Tips</a>
+            
+            <a href='/tags/#%EB%A9%94%EB%A1%B1%EB%A9%94%EB%A1%B1%EB%A9%94%EB%A1%B1'>메롱메롱메롱</a>
             
         </div><!-- .tag-links -->
     </section><!-- .tagcloud -->

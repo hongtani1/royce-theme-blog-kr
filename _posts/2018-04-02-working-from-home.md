@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Advantages & Disadvantages of Working from Home'
-tags: [Startup, Tips]
+tags: [Startup, Tips, 메롱메롱메롱]
 featured_image_thumbnail: assets/images/posts/2018/4_thumbnail.jpg
 featured_image: assets/images/posts/2018/4.jpg
 ---

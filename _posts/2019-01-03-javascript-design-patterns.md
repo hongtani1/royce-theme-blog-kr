@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Learning JavaScript Design Patterns'
-tags: [JavaScript, Tips]
+tags: [JavaScript, Tips, 메롱메롱메롱]
 featured_image_thumbnail:
 featured_image: assets/images/posts/2019/patterns.jpeg
 featured: true
