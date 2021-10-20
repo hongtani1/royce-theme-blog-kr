@@ -39,7 +39,8 @@ post_class: post-template
               <script>
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
                   function sendLink(){
-                    var _title = "{{ page.title }}"
+                    var _title = "{{ page.title }}";
+                    var _desc = document.head.querySelector("[property='og:description']").content;
 
 
                     Kakao.Link.sendCustom({
