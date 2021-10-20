@@ -32,5 +32,3 @@ buttons:
   },
 });
 }
-
-// document.querySelector('#share_btn').addEventListener('click', kakaoShare);
