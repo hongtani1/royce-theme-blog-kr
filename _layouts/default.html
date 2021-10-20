@@ -43,11 +43,11 @@
           <meta property="article:author" content="{{ page.author }}" />
         {% endif %}
         {% if post.featured_image %}
-          <meta property="og:image" content="{{ site.baseurl }}{{ page.featured_image }}" />
-          <meta name="twitter:image:src" content="{{ site.baseurl }}{{ page.featured_image }}" />
+          <meta property="og:image" content="{{ post.featured_image | prepend: site.baseurl }}" />
+          <meta name="twitter:image:src" content="{{ post.featured_image | prepend: site.baseurl }}" />
         {% endif %}
           <meta property="og:locale" content="ko_KR" />
-          <meta property="og:site_name" content="Hongtani 디지털마케팅" />
+          <meta property="og:site_name" content="{{ page.title }}" />
         {% if page.categories %}
           {% for category in page.categories limit:1 %}
           <meta property="article:section" content="{{ category }}" />
