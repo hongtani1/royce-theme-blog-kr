@@ -232,12 +232,26 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         <footer class="post-footer">
             <div class="post-share">
                 <span class="post-share-title">링크 공유하기:</span>
-                  <a id="kakao-link-btn">
+                  <a id="kakao-link-btn" href="javascript:sendLink()">
                 <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png" />
                 <a target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/react-conferences-to-attend-in-2018">페이스북</a>
                 <a target="_blank"
                     href="https://twitter.com/share?text=React.js+Conferences+to+Attend+in+2018&amp;url=https://hongtani.com/react-conferences-to-attend-in-2018">트위터</a>
+                    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+                      <script>
+                          Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                          function sendLink() {
+                            Kakao.Link.sendCustom({
+                              templateId: 63753,   // 복사해둔 템플릿 ID
+                              templateArgs: {
+                                title: "React.js Conferences to Attend in 2018",
+                                description: "",
+                                url : "/react-conferences-to-attend-in-2018",
+                              },
+                            });
+                          }
+                      </script>
             </div><!-- .share-post -->
         </footer>
         
@@ -386,8 +400,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/custom.js"></script>
-    <!-- Kakao Javascript -->
-    <script src="/assets/js/Kakao.js"></script>
+
 </body>
 
 </html>
