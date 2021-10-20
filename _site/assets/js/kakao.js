@@ -7613,4 +7613,41 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
+  // 카카오 SDK 초기화
+  Kakao.init('8bfe78c9abc2628869d411e85df2d4d9');
+  Kakao.isInitialized();
+
+  // 카톡 공유 실행 함수
+  var kakaoShare = function(){
+    dataLayer.push({
+      'event': 'kakao_share'
+    });
+    var title = document.querySelector('.post-title').textContent;
+    var desc = document.querySelector('.post-content').textContent;
+    var imgUrl = document.querySelector('.post-thumbnail').src;
+
+    Kakao.Link.sendDefault({
+  objectType: 'feed',
+  content: {
+    title: title,
+    description: desc,
+    imageUrl:
+      imgUrl,
+    link: {
+      mobileWebUrl: '{{ site.production_url }}{{ page.url | remove_first: '/' }}'
+    },
+  },
+  buttons:
+    {
+      title: '게시글 보기',
+      link: {
+        mobileWebUrl: '{{ site.production_url }}{{ page.url | remove_first: '/' }}',
+        webUrl: '{{ site.production_url }}{{ page.url | remove_first: '/' }}',
+      },
+    },
+});
+}
+
+  document.querySelector('#kakao-link-btn').addEventListener('click', kakaoShare);
+
 })));
