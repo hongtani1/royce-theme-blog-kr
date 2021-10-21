@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/2021%EB%85%84%ED%95%9C%EA%B5%AD%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%A0%90%EC%9C%A0%EC%9C%A8</loc>
+      <loc>http://localhost:4000/SEO-uglytruth</loc>
       
         <lastmod>2021-10-21T00:00:00+09:00</lastmod>
       
@@ -18,9 +18,25 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</loc>
+      <loc>http://localhost:4000/koreaSEOrank2021</loc>
       
         <lastmod>2021-10-20T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/whatisSEO</loc>
+      
+        <lastmod>2021-10-19T00:00:00+09:00</lastmod>
       
 
       
