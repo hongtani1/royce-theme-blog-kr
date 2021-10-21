@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "SEO는 무엇이고 어떻게 해야할까요",
+      "category" : "",
+      "tags"     : "SEO, Google, 검색엔진, 콘텐츠",
+      "url"      : "/SEO-start",
+      "date"     : "October 21, 2021"
+    } ,
+  
+    {
       "title"    : "Choosing the Best Front-end Framework",
       "category" : "",
       "tags"     : "JavaScript, Tips",
