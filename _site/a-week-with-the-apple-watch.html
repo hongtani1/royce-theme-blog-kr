@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P2PVWVJ');</script>
+    <!-- End Google Tag Manager -->
     
         <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>A Week With the Apple Watch | HONGTANI</title>
@@ -215,12 +221,12 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
                   }
 
               </script>
-              <a href="" id="copy_btn" class="url" onclick="clip(); return false;"><img class="copy_url" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
-              <a id="kakao-link-btn" href="javascript:sendLink()"><img class="kakao_share" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
+              <a href="" id="copy_btn" class="url" onclick="clip(); return false;"><img class="sharepost" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
+              <a id="kakao-link-btn" href="javascript:sendLink()"><img class="sharepost" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
                 <a target="_blank"
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/a-week-with-the-apple-watch"><img class="facebook_share" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/a-week-with-the-apple-watch"><img class="sharepost" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
                 <a target="_blank"
-                    href="https://twitter.com/share?text=A+Week+With+the+Apple+Watch&amp;url=https://hongtani.com/a-week-with-the-apple-watch"><img class="twitter_share" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
+                    href="https://twitter.com/share?text=A+Week+With+the+Apple+Watch&amp;url=https://hongtani.com/a-week-with-the-apple-watch"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
 
             </div><!-- .share-post -->
         </footer>
@@ -350,12 +356,45 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </div><!-- .site -->
 
     
+
     <!-- Javascript Assets -->
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/custom.js"></script>
 
+    <script>
+      var sharePost = function(){
+        gtag('event', '클릭',{
+            'event_category': '공유하기'
+            'event_label': 'A Week With the Apple Watch'
+        });
+      };
+      var shareBtn = document.querySelector('.sharepost');
+      sherePost.addEventListener('click, sharePost');
 
+      var subsBtn = function(){
+        gtag('event', '제출완료',{
+            'event_category': '구독-뉴스레터'
+            'event_label': 'A Week With the Apple Watch'
+        });
+      };
+      var subsComplete = document.getElementById('mc-embedded-subscribe');
+      subsComplete.addEventListener('submit', subsBtn);
+
+
+      var askBtn = function(){
+        gtag('event', '제출완료',{
+            'event_category': '문의하기'
+        });
+      };
+      var askComplete = document.getElementById('askme');
+      askComplete.addEventListener('submit', askBtn);
+
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2PVWVJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>

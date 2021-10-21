@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P2PVWVJ');</script>
+    <!-- End Google Tag Manager -->
     
         <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Blog Guide | HONGTANI</title>
@@ -154,11 +160,10 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 <br /></p>
 
 <h2 id="1-html과-css-그리고-javascript">1. HTML과 CSS 그리고 Javascript</h2>
-<p>일반적으로 웹에 거의 필수적으로 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.</p>
+<p>일반적으로 웹에 거의 필수적으로 쓰이는 HTML과 CSS,Javascript로 블로그가 구성되어 있습니다.
+블로그를 이루는 <strong>모든 요소</strong>는 직접 코드 수정하여 원하는 대로 바꿀 수 있습니다.</p>
 
-<p>블로그를 이루는 <strong>모든 요소</strong>는 직접 코드 수정하여 원하는 대로 바꿀 수 있습니다.</p>
-
-<p>블로그에 사용된 코드 일부</p>
+<h5 id="블로그에-사용된-seo-코드-일부">블로그에 사용된 SEO 코드 일부</h5>
 <pre><code class="language-markup">&lt;!DOCTYPE html&gt;
 &lt;html lang="ko"&gt;
 &lt;head&gt;
@@ -182,7 +187,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
 <p>또한, 외부적 SEO 요소로 검색엔진 웹크롤링 봇이 웹사이트 전체에 접근하도록 하는 robot.txt를 작성하였고, 웹사이트 내 정보가 포함된 데이터 파일인 feed.xml, 검색엔진이 웹 사이트 구조를 이해하는데 도움을 주는 sitemap.xml 파일을 포함하여, 구글 서치 콘솔, 네이버/다음 웹마스터 도구에 등록하여 검색 엔진의 접근을 용이하게 설정했습니다.</p>
 
-<h3 id="블로그에-사용된-seo-코드-일부">블로그에 사용된 SEO 코드 일부</h3>
+<h5 id="블로그에-사용된-seo-코드-일부-1">블로그에 사용된 SEO 코드 일부</h5>
 <pre><code class="language-markup">&lt;title&gt;Blog Guide | HONGTANI&lt;/title&gt;
 &lt;meta property="og:title" content="Blog Guide" /&gt;
 &lt;meta property="og:locale" content="ko_KR" /&gt;
@@ -246,12 +251,45 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     </div><!-- .site -->
 
     
+
     <!-- Javascript Assets -->
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/custom.js"></script>
 
+    <script>
+      var sharePost = function(){
+        gtag('event', '클릭',{
+            'event_category': '공유하기'
+            'event_label': 'Blog Guide'
+        });
+      };
+      var shareBtn = document.querySelector('.sharepost');
+      sherePost.addEventListener('click, sharePost');
 
+      var subsBtn = function(){
+        gtag('event', '제출완료',{
+            'event_category': '구독-뉴스레터'
+            'event_label': 'Blog Guide'
+        });
+      };
+      var subsComplete = document.getElementById('mc-embedded-subscribe');
+      subsComplete.addEventListener('submit', subsBtn);
+
+
+      var askBtn = function(){
+        gtag('event', '제출완료',{
+            'event_category': '문의하기'
+        });
+      };
+      var askComplete = document.getElementById('askme');
+      askComplete.addEventListener('submit', askBtn);
+
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2PVWVJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
