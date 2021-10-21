@@ -5,42 +5,9 @@
     <description>Digital Marketer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Oct 2021 16:29:53 +0900</pubDate>
-    <lastBuildDate>Thu, 21 Oct 2021 16:29:53 +0900</lastBuildDate>
+    <pubDate>Thu, 21 Oct 2021 16:30:53 +0900</pubDate>
+    <lastBuildDate>Thu, 21 Oct 2021 16:30:53 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
-    
-      <item>
-        <title>SEO는 무엇이고 어떻게 해야할까요</title>
-        <description>&lt;p&gt;사람들은 원하는 정보를 찾기 위해 검색엔진을 사용합니다.&lt;/p&gt;
-
-&lt;p&gt;검색엔진은 수십수백만건에 이르는 검색 결과를 줄세워야 하고, 우리는 결과 상단에 내 비즈니스 웹페이지가 나타나도록 디지털 환경을 조성해야 합니다. 이 과정을 &lt;strong&gt;SEO( &lt;em&gt;search engine optimization&lt;/em&gt; ), 검색 엔진 최적화&lt;/strong&gt; 라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;마치, 사람이 많이 붐비는 강남역, 가로수길 같이 핫한 곳에 &lt;strong&gt;가장 잘 보이는 곳&lt;/strong&gt;에 매장을 내듯이 웹 상에서 사람들이 많이 검색하는 결과에 내 비즈니스 키워드를 연결하고 더 많은 사람들이 내 비즈니스 웹페이지로 들어오도록 하는 것입니다. 비용을 지불하고 디지털 형태로 광고하는 이른바 &lt;strong&gt;Paid 마케팅&lt;/strong&gt;에 제한과 경쟁 점점 많아지고 있는 요즘, 돈을 내지 않고도 사람들이 자발적으로 유입되고 회자되도록 하는 &lt;strong&gt;Non-pain(Organic) 마케팅&lt;/strong&gt;을 제대로 이해하지 못한다면 가까운 미래에 경쟁사보다 훨씬 더 많은 비용을 지출하게 될 것입니다.&lt;/p&gt;
-
-&lt;p&gt;이러한 SEO에는 기술적인 부분(Technic)과 정성적인 부분(Contents)이 준비되어야 하며, 이를 각각 테크니컬SEO와 콘텐츠SEO로 분리할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;테크니컬SEO&lt;/strong&gt;는 검색 엔진이 정한 규칙에 맞게 나의 비즈니스 웹페이지의 구조를 세팅하는 것이고, &lt;u&gt;대표적으로 html 태그 최적화, 웹사이트 속도 최적화, 보안 프로토콜, 사이트맵 제출&lt;/u&gt; 등 기술적인 부분이 요구됩니다. 보통 개발자와 함께 작업하며, 코딩에 해박한 마케터나 마케팅 에이전시가 직접 할 수도 있지만, 퍼블리싱 등의 이슈로 웹페이지의 개발자와의 협업은 필수적입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;콘텐츠SEO&lt;/strong&gt;는 검색엔진의 규칙에 따라 테크니컬SEO가 잘 구현된 비즈니스 웹사이트안에서 Google이나 Naver, Daum과 같은 검색 엔진과 유저에게 유익한 정보를 제공하여 웹 표준에 따라 양질의 콘텐츠를 발간하는 작업입니다. 아무리 테크니컬SEO가 잘 세팅되어 있다한들 보여질 콘텐츠 없이 효과적인 &lt;strong&gt;SEO는 불가능&lt;/strong&gt;하며, SEO의 핵심은 질좋은 콘텐츠를 생산하는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;콘텐츠에도 SEO 규칙이 있으며 자세한 내용은 링크를 통해 알아보세요.&lt;/p&gt;
-
-&lt;p&gt;SEO에 대한 여러 낭설이 떠돌고 있어, 정확한 SEO 개념을 정보를 수집하고  정리하는 것이 쉽지 않습니다. 특히, 국내에서 검색비중이 큰 네이버에 대해서 폐쇄적인 노출 알고리즘 때문에 이해가 더욱 복잡해집니다. 자세한 네이버 SEO에 대한 이야기는 다른 포스팅에서 다루겠습니다.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</link>
-        <guid isPermaLink="true">http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</guid>
-        
-        <category>SEO</category>
-        
-        <category>Google</category>
-        
-        <category>검색엔진</category>
-        
-        <category>콘텐츠</category>
-        
-        
-      </item>
     
       <item>
         <title>2021년 한국 검색엔진 점유율 (feat.구글과 네이버의 차이)</title>
@@ -120,6 +87,39 @@
         <category>Google</category>
         
         <category>Naver</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>SEO는 무엇이고 어떻게 해야할까요</title>
+        <description>&lt;p&gt;사람들은 원하는 정보를 찾기 위해 검색엔진을 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;검색엔진은 수십수백만건에 이르는 검색 결과를 줄세워야 하고, 우리는 결과 상단에 내 비즈니스 웹페이지가 나타나도록 디지털 환경을 조성해야 합니다. 이 과정을 &lt;strong&gt;SEO( &lt;em&gt;search engine optimization&lt;/em&gt; ), 검색 엔진 최적화&lt;/strong&gt; 라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;마치, 사람이 많이 붐비는 강남역, 가로수길 같이 핫한 곳에 &lt;strong&gt;가장 잘 보이는 곳&lt;/strong&gt;에 매장을 내듯이 웹 상에서 사람들이 많이 검색하는 결과에 내 비즈니스 키워드를 연결하고 더 많은 사람들이 내 비즈니스 웹페이지로 들어오도록 하는 것입니다. 비용을 지불하고 디지털 형태로 광고하는 이른바 &lt;strong&gt;Paid 마케팅&lt;/strong&gt;에 제한과 경쟁 점점 많아지고 있는 요즘, 돈을 내지 않고도 사람들이 자발적으로 유입되고 회자되도록 하는 &lt;strong&gt;Non-pain(Organic) 마케팅&lt;/strong&gt;을 제대로 이해하지 못한다면 가까운 미래에 경쟁사보다 훨씬 더 많은 비용을 지출하게 될 것입니다.&lt;/p&gt;
+
+&lt;p&gt;이러한 SEO에는 기술적인 부분(Technic)과 정성적인 부분(Contents)이 준비되어야 하며, 이를 각각 테크니컬SEO와 콘텐츠SEO로 분리할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;테크니컬SEO&lt;/strong&gt;는 검색 엔진이 정한 규칙에 맞게 나의 비즈니스 웹페이지의 구조를 세팅하는 것이고, &lt;u&gt;대표적으로 html 태그 최적화, 웹사이트 속도 최적화, 보안 프로토콜, 사이트맵 제출&lt;/u&gt; 등 기술적인 부분이 요구됩니다. 보통 개발자와 함께 작업하며, 코딩에 해박한 마케터나 마케팅 에이전시가 직접 할 수도 있지만, 퍼블리싱 등의 이슈로 웹페이지의 개발자와의 협업은 필수적입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;콘텐츠SEO&lt;/strong&gt;는 검색엔진의 규칙에 따라 테크니컬SEO가 잘 구현된 비즈니스 웹사이트안에서 Google이나 Naver, Daum과 같은 검색 엔진과 유저에게 유익한 정보를 제공하여 웹 표준에 따라 양질의 콘텐츠를 발간하는 작업입니다. 아무리 테크니컬SEO가 잘 세팅되어 있다한들 보여질 콘텐츠 없이 효과적인 &lt;strong&gt;SEO는 불가능&lt;/strong&gt;하며, SEO의 핵심은 질좋은 콘텐츠를 생산하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;콘텐츠에도 SEO 규칙이 있으며 자세한 내용은 링크를 통해 알아보세요.&lt;/p&gt;
+
+&lt;p&gt;SEO에 대한 여러 낭설이 떠돌고 있어, 정확한 SEO 개념을 정보를 수집하고  정리하는 것이 쉽지 않습니다. 특히, 국내에서 검색비중이 큰 네이버에 대해서 폐쇄적인 노출 알고리즘 때문에 이해가 더욱 복잡해집니다. 자세한 네이버 SEO에 대한 이야기는 다른 포스팅에서 다루겠습니다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</link>
+        <guid isPermaLink="true">http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</guid>
+        
+        <category>SEO</category>
+        
+        <category>Google</category>
+        
+        <category>검색엔진</category>
+        
+        <category>콘텐츠</category>
         
         
       </item>
