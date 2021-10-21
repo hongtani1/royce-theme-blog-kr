@@ -5,8 +5,8 @@
     <description>Digital Marketer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Oct 2021 14:51:15 +0900</pubDate>
-    <lastBuildDate>Thu, 21 Oct 2021 14:51:15 +0900</lastBuildDate>
+    <pubDate>Thu, 21 Oct 2021 16:27:04 +0900</pubDate>
+    <lastBuildDate>Thu, 21 Oct 2021 16:27:04 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 &lt;p&gt;SEO에 대한 여러 낭설이 떠돌고 있어, 정확한 SEO 개념을 정보를 수집하고  정리하는 것이 쉽지 않습니다. 특히, 국내에서 검색비중이 큰 네이버에 대해서 폐쇄적인 노출 알고리즘 때문에 이해가 더욱 복잡해집니다. 자세한 네이버 SEO에 대한 이야기는 다른 포스팅에서 다루겠습니다.&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/SEO-start</link>
-        <guid isPermaLink="true">http://localhost:4000/SEO-start</guid>
+        <link>http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</link>
+        <guid isPermaLink="true">http://localhost:4000/SEO%EB%8A%94%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94</guid>
         
         <category>SEO</category>
         
@@ -38,6 +38,88 @@
         <category>검색엔진</category>
         
         <category>콘텐츠</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>2021년 한국 검색엔진 점유율 (feat.구글과 네이버의 차이)</title>
+        <description>&lt;h2 id=&quot;2021년-검색엔진의-점유율은-어떻게-될까요&quot;&gt;2021년 검색엔진의 점유율은 어떻게 될까요?&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;검색엔진&lt;/th&gt;
+      &lt;th&gt;2021년 01월&lt;/th&gt;
+      &lt;th&gt;2021년 02월&lt;/th&gt;
+      &lt;th&gt;2021년 03월&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Naver&lt;/td&gt;
+      &lt;td&gt;66.04%&lt;/td&gt;
+      &lt;td&gt;65.22%&lt;/td&gt;
+      &lt;td&gt;64.37%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Google&lt;/td&gt;
+      &lt;td&gt;26.00%&lt;/td&gt;
+      &lt;td&gt;26.95%&lt;/td&gt;
+      &lt;td&gt;27.99%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Daum&lt;/td&gt;
+      &lt;td&gt;7.03%&lt;/td&gt;
+      &lt;td&gt;6.94%&lt;/td&gt;
+      &lt;td&gt;6.77%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Zoom&lt;/td&gt;
+      &lt;td&gt;0.28%&lt;/td&gt;
+      &lt;td&gt;0.27%&lt;/td&gt;
+      &lt;td&gt;0.27%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nate&lt;/td&gt;
+      &lt;td&gt;0.13%&lt;/td&gt;
+      &lt;td&gt;0.11%&lt;/td&gt;
+      &lt;td&gt;0.11%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;기타&lt;/td&gt;
+      &lt;td&gt;0.52%&lt;/td&gt;
+      &lt;td&gt;0.51%&lt;/td&gt;
+      &lt;td&gt;0.50%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;cite&gt;Dighty Data Market의 2021년 검색엔진 리포트에서 발췌:&lt;/cite&gt;  &lt;a href=&quot;https://market.dighty.com/trendreport/?idx=6280894&amp;amp;bmode=view&quot;&gt;링크보러가기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;국내에서 점유율이 가장 큰 검색엔진은 여전히 네이버입니다. 그래도 2018년의 점유율(네이버-약 78%, 구글-약 11%)과 비교하면 3년만에 2배 이상 점유율을 높인 구글의 성과가 매우 뛰어나 보입니다.&lt;/p&gt;
+
+&lt;p&gt;아무래도 검색광고와 디스플레이광고 지면이 많은 네이버의 특성상 &lt;strong&gt;정보탐색&lt;/strong&gt;에 목적을 둔 사용자들이 대거 이탈하고 있는 것으로 보여지며, &lt;strong&gt;정보의 매칭이나 문제해결을 위한 검색&lt;/strong&gt;은 구글의 검색엔진이 최적화가 더 잘되어 있다는 것이 최근의 동향입니다.&lt;/p&gt;
+
+&lt;p&gt;네이버에서는 주로 음식점, 지역, 후기, 쇼핑 과 같이 국내 내수 산업에 관련된 검색이 주를 이루게 되는데, 아무래도 네이버가 한국기업이 때문에 언론사 제휴, 날씨,위치 정보(시,군,구,번지 등)나 지역 교통 정보 등 Location(지역) 파트에서 구글보다는 월등히 앞선 디테일 덕분에 일상에 필요한 검색 트래픽을 거의 독차지 하게 되는 모습입니다.&lt;/p&gt;
+
+&lt;p&gt;그러나 구글은 지식 기반의 정보검색에 주된 목적이 있어, 불확실한 정보를 제공하는 콘텐츠를 하위로 내리고, 정보의 투명성과 신뢰도를 중점으로 검색결과를 최적화하여 정보탐색에 목적이 있는 사용자에게 최고의 경험을 선사합니다.&lt;/p&gt;
+
+&lt;p&gt;특히, 비용을 지불하고 검색 결과 상단에 노출시키는 SA(검색광고)지면의 경우 구글보다 네이버가 몇 배나 더 많은 지면을 할당하고 있습니다. 이처럼 실제 정보의 정확성보다 비용 지불 유무에 따라 상위 검색결과로 배치되는 구조로 인해 Naver는 일부 사용자들로부터 비난을 받기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;저는 개인적으로 두 검색엔진 모두 장단점이 명확한 검색엔진이라 생각합니다. 소비자 입장에서는 목적에 따라 알맞는 검색엔진을 통해 검색을 하면 되겠으며, 브랜드 입장에서도 마찬가지로 &lt;strong&gt;검색엔진에 따라 어떤 정보를 노출하고, 어떻게 관리해야할지 생각&lt;/strong&gt;하여 검색 결과 접근성을 높이는 것이 매우 중요하겠습니다.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2021%EB%85%84%ED%95%9C%EA%B5%AD%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%A0%90%EC%9C%A0%EC%9C%A8</link>
+        <guid isPermaLink="true">http://localhost:4000/2021%EB%85%84%ED%95%9C%EA%B5%AD%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%A0%90%EC%9C%A0%EC%9C%A8</guid>
+        
+        <category>SEO</category>
+        
+        <category>Google</category>
+        
+        <category>Naver</category>
         
         
       </item>
