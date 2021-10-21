@@ -251,7 +251,20 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
                       },
                     });
                   }
+                  function clip(){
+                    var url = '';
+                    var textarea = document.createElement("textarea");
+                    document.body.appendChild(textarea);
+                    url = window.document.location.href;
+                    textarea.value = url;
+                    textarea.select();
+                    document.execCommand("copy");
+                    document.body.removeChild(textarea);
+                    alert("링크가 복사되었습니다.")
+                  }
+
               </script>
+              <a href="" id="copy_btn" class="url" onclick="clip(); return false;"><img class="copy_url" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
               <a id="kakao-link-btn" href="javascript:sendLink()"><img class="kakao_share" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
                 <a target="_blank"
                     href="https://www.facebook.com/sharer/sharer.php?u=https://hongtani.com/react-conferences-to-attend-in-2018"><img class="facebook_share" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
