@@ -1,16 +1,16 @@
 <p class="social-links">
     {% if site.twitter %}
-    <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+    <a href="https://twitter.com/{{ site.twitter }}" target="_blank" id="sns" class="twitter">
         {% include icons/twitter.html %}
     </a>
     {% endif %}
     {% if site.facebook %}
-    <a href="https://www.facebook.com/{{ site.facebook }}" target="_blank">
+    <a href="https://www.facebook.com/{{ site.facebook }}" target="_blank" id="sns" class="facebook">
         {% include icons/facebook.html %}
     </a>
     {% endif %}
     {% if site.github %}
-    <a href="https://github.com/{{ site.github }}" target="_blank">
+    <a href="https://github.com/{{ site.github }}" target="_blank" id="sns" class="github">
         {% include icons/github.html %}
     </a>
     {% endif %}
