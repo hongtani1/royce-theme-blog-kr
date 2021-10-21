@@ -1,4 +1,4 @@
-I"�<p>Hongtani의 디지털마케팅 블로그는 jekyll로 만들었습니다. jekyll은 템플릿, 부분, 유동 코드, 마크다운 등과 같은 동적 구성 요소에서 정적 웹 사이트를 구축하는 데 사용되는 루비(Ruby) 언어로 제공되는 구문 분석 엔진입니다. 일반적으로 사용되는 브런치(brunch)나 티스토리(tistory)나 네이버(Naver)로 만들지 않은 것은, 이 블로그를 통해 직접 <a href="http://hongtani.com/tags/index.html#SEO"><strong>SEO</strong></a>나 <strong>GA, GTM</strong>등 디지털마케팅의 기술적 요소들을 직접 활용하고 모든 부분에 직접 개입하고 싶었기 때문입니다.</p>
+I"�<p>Hongtani의 디지털마케팅 블로그는 jekyll로 만들었습니다. jekyll은 템플릿, 부분, 유동 코드, 마크다운 등과 같은 동적 구성 요소에서 정적 웹 사이트를 구축하는 데 사용되는 루비(Ruby) 언어로 제공되는 구문 분석 엔진입니다. 일반적으로 사용되는 브런치(brunch)나 티스토리(tistory)나 네이버(Naver)로 만들지 않은 것은, 이 블로그를 통해 직접 <a href="http://hongtani.com/tags/index.html#SEO"><strong>SEO</strong></a>나 <strong>GA, GTM</strong>등 디지털마케팅의 기술적 요소들을 직접 활용하고 모든 부분에 직접 개입하고 싶었기 때문입니다.</p>
 
 <p>본 페이지는 이 블로그의 마케팅 퍼널(Funnel)을 고려한 설계의도와 디지털마케팅에 필요한 분석을 어떤 식으로 설치했는지 정리했습니다.</p>
 
@@ -60,6 +60,14 @@
 
 <p>유입된 사용자 정보에 따라 포스팅 방향이나 사이트 구조를 개선하면서 UA리포트도 종종 공유하겠습니다.
   특히 UA에는 Google데이터스튜디오로 잘 짜여진 맞춤 보고서를 작성하는 것이 목표입니다.</p>
+
+<h5 id="블로그에-설정된-ga-목표-이벤트">블로그에 설정된 GA 목표 이벤트</h5>
+
+<p><img src="https://hongtani.com/assets/images/posts/2021/myga_1.jpg" alt="Hongtani 블로그의 GA 목표 이벤트" /></p>
+
+<h5 id="ga-목표-이벤트-설정화면">GA 목표 이벤트 설정화면</h5>
+<p><img src="https://hongtani.com/assets/images/posts/2021/myga_2.jpg" alt="Hongtani 블로그의 GA 목표 이벤트 설정화면" />
+GA 목표 이벤트 설정화면에서 액션 부분에 들어간 blog-guide.md 같은 형식을 <strong>치환자</strong> 라고 하는데, 웹페이지에서 일어나는 정보의 변화를 감지하여, 그때그때 바뀐 정보를 동적으로 수집하여 기록합니다. 쉽게 말해, ‘손님이 입장한다’라는 목표 이벤트를 설정한 후, – 이라는 설정을 하면 남자손님이 올때는 <strong>손님+1(남자)</strong> 로, 여자손님이 올때는 <strong>손님+1(여자)</strong>로 기록되어, 총 손님2명 (남자1, 여자1) 이라는 정보를 수집하는 방식입니다.</p>
 
 <h2 id="4-gtm">4. GTM</h2>
 
