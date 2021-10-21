@@ -5,8 +5,8 @@
     <description>Digital Marketer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Oct 2021 18:28:59 +0900</pubDate>
-    <lastBuildDate>Thu, 21 Oct 2021 18:28:59 +0900</lastBuildDate>
+    <pubDate>Thu, 21 Oct 2021 18:30:11 +0900</pubDate>
+    <lastBuildDate>Thu, 21 Oct 2021 18:30:11 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -21,7 +21,7 @@
   &lt;li&gt;오프페이지 SEO : 소유하지 않은 웹사이트에서 수행하는 SEO (웹 빌더: 아임웹 등)&lt;/li&gt;
   &lt;li&gt;온서프 SEO : 검색결과 페이지에서 이뤄지는 SEO&lt;/li&gt;
   &lt;li&gt;테크니컬 SEO : 코드수정 등 개발파트에서 이뤄지는 SEO&lt;/li&gt;
-  &lt;li&gt;콘텐츠 SEO : 콘텐츠의 작성 방식과 내용의 퀄리티에 따름&lt;/li&gt;
+  &lt;li&gt;콘텐츠 SEO : 콘텐츠의 작성 방식과 내용 퀄리티에 따름&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;검색엔진은 사람과 다르게 글의 맥락이나 주제를 이해하는 언어 처리 능력이 떨어집니다. 이런 점을 보완하기 위해 검색엔진에 다양한 기능적 요소가 추가되었고 현재 검색엔진은 상당히 지능적으로 발전했습니다. 이밖에도 검색엔진과 웹 사이트의 커뮤니케이션을 위한 파일, 검색 결과 페이지에 노출되는 방식 등 기술측면에서 검색엔진에 친화적인 요소를 주기적으로 확인하는 등 합리적인 방법으로 검색결과를 수정합니다.&lt;/p&gt;
@@ -40,17 +40,17 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;URL(웹 주소)&lt;/td&gt;
+      &lt;td&gt;URL (웹 주소)&lt;/td&gt;
       &lt;td&gt;115&lt;/td&gt;
       &lt;td&gt;영문 사용 권장&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;title(타이틀)&lt;/td&gt;
+      &lt;td&gt;title (타이틀)&lt;/td&gt;
       &lt;td&gt;65&lt;/td&gt;
       &lt;td&gt;32&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Meta tag(meta태그)&lt;/td&gt;
+      &lt;td&gt;Meta tag (meta태그)&lt;/td&gt;
       &lt;td&gt;160&lt;/td&gt;
       &lt;td&gt;77&lt;/td&gt;
     &lt;/tr&gt;
