@@ -4,8 +4,8 @@ title: 'SEO는 무엇이고 어떻게 해야할까요'
 tags: [SEO, 검색엔진]
 featured_image_thumbnail: assets/images/posts/2021/korea.jpg
 featured_image: assets/images/posts/2021/korea.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 
