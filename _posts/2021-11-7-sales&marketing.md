@@ -2,8 +2,8 @@
 layout: post
 title: '영업과 마케팅의 차이'
 tags: [마케팅]
-featured_image_thumbnail: assets/images/posts/2021/영업과마케팅의차이.jpg
-featured_image: assets/images/posts/2021/영업과마케팅의차이.jpg
+featured_image_thumbnail: assets/images/posts/2021/salesandmarketing.jpg
+featured_image: assets/images/posts/2021/salesandmarketing.jpg
 featured: true
 hidden: true
 ---
