@@ -4,8 +4,8 @@ title: 'SEO종류, 그리고 오해와 진실'
 tags: [SEO,검색엔진]
 featured_image_thumbnail: assets/images/posts/2021/uglytruth.jpg
 featured_image: assets/images/posts/2021/uglytruth.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 
