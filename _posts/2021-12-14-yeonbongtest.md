@@ -30,21 +30,7 @@ hidden: true
 MBTI를 이루는 EI/SN/TF/JP 각 유형을 수집하여 결과를 노출하던 로직을 갖고 있던 쿠키런MBTI테스트 형태로는 연봉협상테스트를 만들기가 어려웠습니다.
 하여, 각 문제별로 선택할 수 있는 답안을 기존 2개에서 4개로 늘리고, 각 답변별로 점수를 배정하여 최종 스코어로 결과를 도출하는 방식으로 새로 만들어야 했습니다.
 
-**[기존]**
-mermaid
-graph LR
-A[Hard edge] -->B(Round edge){Decision}
-    B -->|#A| C[mbti 유형1]
-    B -->|#B| D[mbti 유형2]
-
-**[변경 후]**
-mermaid
-graph LR
-A[Hard edge] -->B(Round edge){Decision}
-    B -->|#A| C[답변1]
-    B -->|#B| D[답변2]
-    B -->|#C| E[답변3]
-    B -->|#D| F[답변4]
+![문제바꾸기](assets/images/posts/2021/ybtest-cookie.jpg "문제바꾸기")
 
 
 ## [step.02]
