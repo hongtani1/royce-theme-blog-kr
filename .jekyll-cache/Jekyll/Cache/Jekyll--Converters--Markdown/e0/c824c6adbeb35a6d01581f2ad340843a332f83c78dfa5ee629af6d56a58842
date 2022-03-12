@@ -1,0 +1,270 @@
+I"��<h3 id="제-첫-디지털마케팅-1인-프로젝트">제 첫 디지털마케팅 1인 프로젝트</h3>
+
+<h4 id="쿠키런킹덤-mbti를-소개합니다">쿠키런킹덤 MBTI를 소개합니다.</h4>
+
+<p>링크바로가기 👉 <a href="http://cookierun-mbti.site/" target="_blank">쿠키런킹덤 MBTI테스트 바로가기</a></p>
+
+<h6 id="previoulsy-전편">Previoulsy (전편)</h6>
+
+<p><a href="https://hongtani.com/MBTI-test-1">MBTI 테스트 제작하기 -1. 준비</a> 바로가기
+<a href="https://hongtani.com/MBTI-test-2">MBTI 테스트 제작하기 -2. 기획</a> 바로가기</p>
+
+<p>1편에서는 MBTI 테스트를 제작하기 위한 준비를 했고, 2편에서는 실제 제작을 위한 제대로 된 기획을 했습니다. 3편에서는 기획한 내용을 바탕으로 테스트를 코딩하고 디지털마케팅 분석세팅을 하는 과정을 정리합니다.</p>
+
+<p>이런 코딩과정을 디지털마케터가 직접 배워 제작하는 것은 상당히 어려운 일입니다. 하여, MBTI 테스트를 만들고 싶은 마케터께서는 <b>본 내용을 개발자에 전달</b>하는 것으로 MBTI테스트 제작에 대한 충분한 설명이 가능할 것입니다.</p>
+
+<p>MBTI 테스트의 와이어프레임은 <a href="https://osoma.kr" target="_blank">오픈소스마케팅</a>의 <a href="http://nohze.com" target="_blank">노지혜 컨설턴트</a>님이 디지털마케팅 컨설팅 강의 용으로 제작하셨습니다.</p>
+
+<h3 id="mbti-테스트-와이어프레임-구축">MBTI 테스트 와이어프레임 구축</h3>
+
+<ol>
+  <li>MBTI 테스트는 HTML, CSS, Javascript로 제작하였습니다.</li>
+  <li>MBTI 테스트의 기본 골격은 웹페이지 프레임워크인 <a href="https://getbootstrap.com/" target="_blank">부트스트랩</a>을 이용하였습니다.</li>
+  <li>MBTI 테스트는 메인페이지(테스트 시작하기), 질문페이지(질문12개), 결과화면 총 3가지 화면으로 구성했습니다.</li>
+</ol>
+
+<h3 id="mbti테스트의-html-내용입니다">MBTI테스트의 HTML 내용입니다.</h3>
+
+<ol>
+  <li>
+    <p>메인페이지의 기본 html코드는 아래와 같습니다</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"mt-5"</span><span class="nt">&gt;</span>MBTI 테스트 제목<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"mt-5"</span> <span class="na">src=</span><span class="s">"img/main_icon.png"</span> <span class="na">width=</span><span class="s">"40%"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h5</span> <span class="na">class=</span><span class="s">"mt-5"</span><span class="nt">&gt;</span>MBTI 테스트 설명입니다.<span class="nt">&lt;/h5&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-grid gap-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"start_btn"</span> <span class="na">class=</span><span class="s">"mt-2 btn btn-dark"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>시작 하기<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>    </div>
+
+    <p>위 코드로 작성한 메인페이지 화면은 아래와 같습니다.
+<img src="https://hongtani.com/assets/images/posts/2021/page_main.png" alt="메인페이지화면" title="메인페이지" /></p>
+  </li>
+  <li>
+    <p>질문페이지의 기본 html코드는 아래와 같습니다</p>
+  </li>
+</ol>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"test"</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"number"</span> <span class="na">class=</span><span class="s">"mt-5"</span><span class="nt">&gt;</span>문제번호 1/12<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"progress"</span> <span class="na">class=</span><span class="s">"progress-bar bg-success"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">style=</span><span class="s">""</span> <span class="na">aria-valuenow=</span><span class="s">""</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;&lt;/div&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;h3</span> <span class="na">id=</span><span class="s">"title"</span> <span class="na">class=</span><span class="s">"mt-5"</span><span class="nt">&gt;</span>문제타이틀<span class="nt">&lt;/h3&gt;</span>
+          <span class="nt">&lt;h5</span> <span class="na">id=</span><span class="s">"description"</span> <span class="na">class=</span><span class="s">"mt-3"</span><span class="nt">&gt;</span>문제의 구체적인 내용이 들어갑니다<span class="nt">&lt;/h5&gt;</span>
+          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"hidden"</span> <span class="na">id=</span><span class="s">"score"</span> <span class="na">value=</span><span class="s">"0"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mt-5 d-grid gap-2"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"A"</span> <span class="na">class=</span><span class="s">"btn btn-dark"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>선택값 A<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"B"</span> <span class="na">class=</span><span class="s">"btn btn-dark"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>선택값 B<span class="nt">&lt;/button&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>위 코드로 작성한 질문페이지 화면은 아래와 같습니다.</p>
+
+<p><img src="/Users/hsh/Documents/개인/무제 폴더/질문페이지.png" alt="질문페이지" style="zoom:50%;" /></p>
+
+<ol>
+  <li>결과페이지의 기본 html코드는 아래와 같습니다</li>
+</ol>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"result"</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">id=</span><span class="s">"result_img"</span> <span class="na">src=</span><span class="s">"img/result.jpeg"</span> <span class="na">alt=</span><span class="s">"결과이미지"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h2</span> <span class="na">id=</span><span class="s">"mymbti"</span> <span class="na">class=</span><span class="s">"mt-5"</span><span class="nt">&gt;</span>결과 제목<span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;h5</span> <span class="na">id=</span><span class="s">"explain"</span> <span class="na">class=</span><span class="s">"mt-3"</span><span class="nt">&gt;</span>결과 자세한 설명<span class="nt">&lt;/h5&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mt-5 d-grid gap-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"share_btn"</span> <span class="na">class=</span><span class="s">"btn btn-dark"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>공유하기<span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"retry_btn"</span> <span class="na">class=</span><span class="s">"btn btn-dark"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>다시시작<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>위 코드로 작성된 결과페이지 화면은 아래와 같습니다.</p>
+
+<p><img src="/Users/hsh/Documents/개인/무제 폴더/결과페이지.png" alt="결과페이지" style="zoom:50%;" /></p>
+
+<h3 id="mbti테스트의-css-내용입니다">MBTI테스트의 CSS 내용입니다.</h3>
+
+<ol>
+  <li>와이어프레임의 css는 아래와 같습니다.</li>
+</ol>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#wrap</span><span class="p">{</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">500px</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">30px</span> <span class="nb">auto</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nf">#main</span><span class="p">{</span>
+  <span class="nl">text-align</span><span class="p">:</span><span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#number</span><span class="p">{</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="n">end</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#test</span><span class="p">{</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span><span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#result_img</span><span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="nb">auto</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span><span class="m">50%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#result</span><span class="p">{</span>
+  <span class="nl">text-align</span> <span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">display</span> <span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p>위 css내용을 바탕으로 리소스와 텍스트, 스타일코드 등을 자유롭게 변경하여 나만의 MBTI테스트를 디자인합니다.</p>
+
+    <p><img src="/Users/hsh/Documents/개인/무제 폴더/쿠키런MBTI테스트.jpg" alt="쿠키런MBTI테스트" /></p>
+  </li>
+  <li>
+    <p>코딩에 생소한 분들에게는 다소 당황스러운 전개일 수 있으나, 웹디자이너와 개발자가 와이어프레임과 함께 완성된 테스트이미지를 본다면 쉽게 이해할 수 있을 것입니다. 응용과 창작은 프로젝트를 담당하는 팀(혹은 개인)의 몫입니다.</p>
+  </li>
+</ol>
+
+<h3 id="mbti테스트의-javascript-내용입니다">MBTI테스트의 Javascript 내용입니다.</h3>
+
+<ol>
+  <li>
+    <p>MBTI테스트에서 사용된 주요 Javascript 코드은 아래와 같습니다.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//테스트 시작함수</span>
+<span class="kd">var</span> <span class="nx">testStart</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#main</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">none</span><span class="dl">"</span><span class="p">;</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#test</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">block</span><span class="dl">"</span><span class="p">;</span>
+  <span class="nx">next</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+
+    <p>css의 display를 “block” 및 “none” 처리하는 방식으로 메인페이지와 질문페이지, 결과페이지를 숨기고 노출하는 식의 SPA(Single Page Application) 방식으로 제작하였습니다.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//타입 선택을 위한 함수</span>
+<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#A</span><span class="dl">'</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="kd">function</span><span class="p">(){</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#score</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+  <span class="nx">next</span><span class="p">();</span>
+<span class="p">})</span>
+
+<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#B</span><span class="dl">'</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span><span class="kd">function</span><span class="p">(){</span>
+  <span class="nx">next</span><span class="p">();</span>
+<span class="p">})</span>
+</code></pre></div>    </div>
+
+    <p>질문페이지에서 답변을 선택하여 다음 질문으로 넘어가는 방식입니다. 이때 선택한 답에 따른 테스트 유형(#score)의 value를 +1 하여 유형에 대한 점수를 쌓아갑니다. 또한 js의 증감연산자 ‘++’를 사용하여 답을 선택할때마다 문제번호가 1만큼 더해지고 그에 따른 질문과 답변의 innerHTML 내용이 달라지도록 제작하였습니다. (해당 내용은 아래에 추가)</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//문제 넘기기 + 결과 도출 함수</span>
+<span class="kd">var</span> <span class="nx">next</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">i</span><span class="o">==</span><span class="mi">13</span><span class="p">){</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#test</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">none</span><span class="dl">"</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#result</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">block</span><span class="dl">"</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">mbti</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#score</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">){</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">I</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">E</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#SN</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">){</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">N</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">S</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#TF</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">){</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">F</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">T</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#JP</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">){</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">P</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+      <span class="nx">mbti</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1">J</span><span class="dl">'</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">mbti</span><span class="p">);</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#mymbti</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">result</span><span class="p">[</span><span class="nx">mbti</span><span class="p">][</span><span class="dl">'</span><span class="s1">mbti</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#explain</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">result</span><span class="p">[</span><span class="nx">mbti</span><span class="p">][</span><span class="dl">'</span><span class="s1">explain</span><span class="dl">'</span><span class="p">];</span>
+  <span class="p">}</span>
+  <span class="k">else</span><span class="p">{</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#number</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">i</span><span class="o">+</span><span class="dl">'</span><span class="s1">/12</span><span class="dl">'</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#progress</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="p">(</span><span class="nx">i</span><span class="o">/</span><span class="mi">12</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span><span class="o">+</span><span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#title</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">testNum</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="dl">'</span><span class="s1">title</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#description</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">testNum</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="dl">'</span><span class="s1">description</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#type</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">testNum</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="dl">'</span><span class="s1">type</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#A</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">testNum</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="dl">'</span><span class="s1">A</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#B</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">testNum</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="dl">'</span><span class="s1">B</span><span class="dl">'</span><span class="p">];</span>
+    <span class="nx">i</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+
+    <p>본 MBTI 테스트의 핵심입니다. ‘EI’, ‘SN’, ‘TF’, ‘JP’로 나눠지는 각 4단계의 MBTI유형마다 3문제씩 출제하여 2점 이상의 득점을 기록할 시 해당 유형으로 기록하여 MBTI결과를 산출합니다. 이때 최종산출되는 MBTI 유형에 따라 결과페이지의 내용이 달라집니다.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">1</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">title</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">첫번째 문제</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">12번째 생일을 맞은 </span><span class="se">\"</span><span class="s2">용감한 쿠키</span><span class="se">\"</span><span class="s2"> &lt;br&gt;&lt;br&gt;생일을 축하해 달라는 쿠키들에게&lt;br&gt;&lt;br&gt;당신의 반응은?</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EI</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">A</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="se">\"</span><span class="s2">용감한 쿠키 생일 축하해 +_+&lt;br&gt;&lt;br&gt;  벌써 12번째 생일이라니 정말 대단해!!</span><span class="se">\"</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">B</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="se">\"</span><span class="s2">쿠키에 생일축하....?? &lt;br&gt;&lt;br&gt;너무 과몰입하는거 아닌가ㅠ</span><span class="se">\"</span><span class="dl">"</span>
+  <span class="p">},</span>
+  <span class="dl">"</span><span class="s2">2</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">title</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">두번째 문제</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">description</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">아재개그에 심취한 당신의 친구가&lt;br&gt;&lt;br&gt;갑자기 피식할법한 썰렁아재개그를&lt;br&gt;&lt;br&gt;한다면 당신의 반응은?</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">type</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">EI</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">A</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">ㅋㅋㅋㅋ헐~~~ 웃겨ㅋㅋ &lt;br&gt;&lt;br&gt;나도 나중에 써먹어야지ㅋㅋㅋㅋ (기억한다)</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">B</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">신이 발끈한게 왜 신발끈...ㅋ &lt;br&gt;&lt;br&gt;썰렁하네 하고 넘어간다</span><span class="dl">"</span>
+  <span class="p">},</span>
+  <span class="dl">"</span><span class="s2">12</span><span class="dl">"</span><span class="p">:{</span><span class="dl">"</span><span class="s2">번까지 제작</span><span class="dl">"</span><span class="p">}</span>
+</code></pre></div>    </div>
+
+    <p>질문페이지에서 답을 선택할 때마다 문제 번호가 하나씩 넘어가며 “title”, “description”, “type”, “A”, “B”의 내용이 바뀌어 나타납니다.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">INTJ</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">mbti</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">아몬드맛쿠키</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">explain</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">멋진 코트가 인상적인 마법 사건사고 처리팀 팀장 아몬드맛쿠키를 닮은 당신은 엄격해보이는 첫인상과 달리 친구로 지내기 좋고 편안한 유형입니다.&lt;br&gt;&lt;br&gt;기준이 높은 편이라 칭찬을 쉽게 하지 않고 자신에게 쌓인 감정이 있으면 즉각 얘기해주길 바라는 편이며, 그 속에서 감정을 절제하고 합리적인 결론을 끌어내려 합니다.</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">result_img</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">아몬드맛쿠키.png</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">cardlike</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">아몬드맛쿠키1.png</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">explain2</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">에너지가 넘치는 팬케이크맛쿠키(ESFP)는 진지한 편인 당신에게 활력을 불어넣고, 서로 부족한 점을 채워주는 사이입니다. &lt;br&gt;&lt;br&gt;반대로 슈크림맛쿠키(ESFJ)의 경우 조용하고 차분한 성격끼리 어색함이 맴도는 상황이 발생할지도....?!</span><span class="dl">"</span>
+  <span class="p">},</span>
+  <span class="dl">"</span><span class="s2">INTP</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">mbti</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">석류맛쿠키</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">explain</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">뛰어난 능력을 가졌지만 어둠마녀쿠키를 신봉하는 석류맛쿠키를 닮은 당신은 혼자만의 시간을 매우 중요시하며, 정서 표현이 적은 편이라 친해지기 전에는 잘 이해하기 어렵습니다. &lt;br&gt;&lt;br&gt;주변의 자극이 없는 상태에서 편안함을 느끼며 마음에 없는 소리를 잘 못하는 편이지만 상대의 말에 동요되는 일이 잘 없고 불합리한 것에 반대합니다.</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">result_img</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">석류맛쿠키.png</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">cardlike</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">석류맛쿠키1.png</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">explain2</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">혼자만의 시간이 필요한 당신을 편안하게 배려하는 슈크림맛쿠키(ESFJ)는 함께 하면 좋을 쿠키입니다. &lt;br&gt;&lt;br&gt;그.러.나 넘치는 에너지와 과한 표현이 주특기인 팬케이크맛쿠키(ESFP)와는 거리를 두는 것이 당신을 편안하게 합니다.</span><span class="dl">"</span>
+  <span class="p">},</span>
+ <span class="dl">"</span><span class="s2">12가지 MBTI유형 모두 작성합니다</span><span class="dl">"</span>
+</code></pre></div>    </div>
+
+    <p>결과페이지에서 최종 산출된 MBTI유형에 따라 “mbti”, “explain”, “result_img”, “cardlike”, “explain2”에 맞는 내용을 불러와 결과페이지에서 노출시킵니다.</p>
+
+    <h2 id="마무리">마무리</h2>
+
+    <p>아무래도 MBTI테스트 포스팅 중 마지막인 개발편은 디지털마케터에게는 많이 복잡하고 생소한 내용일 것입니다. 하지만 위 작성된 내용을 숙지하면, 대략 어떤 느낌으로 MBTI테스트가 구성되고 동작하는지 원리 정도는 충분히 이해하실 수 있습니다. 또한, 대부분의 개발자분들은 위 공개된 코드만 봐도 쉽게 MBTI테스트를 만드실 수 있을만큼 쉽고 간단한 코드입니다.</p>
+
+    <p>디지털마케터는 단순히 매체를 운영하고 캠페인 성과를 숫자로만 관리하다보면 언젠가 한계에 부딪히게 됩니다. 비즈니스와 서비스를 아우르는 시야를 갖고 디지털마케팅에 임하면 퍼포먼스캠페인 숫자 뒤에 숨은 다양한 성공이유와 실패원인을 찾아내고 생산성을 갖춘 고민을 할 수 있습니다.</p>
+
+    <p>오픈소스마케팅에서는 디지털마케터가 보다 깊이있는 인사이트와 실무능력을 갖출 수 있는 더 많은 정보를 제공하고 있습니다. 오픈소스마케팅 블로그에서도 유익한 정보를 많이 찾아보세요.</p>
+  </li>
+</ol>
+
+<p><strong>바로 이동하기</strong> 👉 <a href="https://osoma.kr" target="_blank">오픈소스마케팅 공식 블로그</a></p>
+:ET

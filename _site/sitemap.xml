@@ -2,25 +2,9 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/yeonbongtest</loc>
+      <loc>http://localhost:4000/MBTI-test-3</loc>
       
-        <lastmod>2021-12-14T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>http://localhost:4000/sales&marketing</loc>
-      
-        <lastmod>2021-11-07T00:00:00+09:00</lastmod>
+        <lastmod>2022-03-13T00:00:00+09:00</lastmod>
       
 
       
@@ -50,9 +34,41 @@
     </url>
   
     <url>
+      <loc>http://localhost:4000/yeonbongtest</loc>
+      
+        <lastmod>2021-10-22T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
       <loc>http://localhost:4000/MBTI-test-1</loc>
       
         <lastmod>2021-10-22T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/sales&marketing</loc>
+      
+        <lastmod>2021-10-21T00:00:00+09:00</lastmod>
       
 
       

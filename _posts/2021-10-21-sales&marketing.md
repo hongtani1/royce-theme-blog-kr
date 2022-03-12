@@ -4,8 +4,8 @@ title: '영업과 마케팅의 차이'
 tags: [마케팅]
 featured_image_thumbnail: assets/images/posts/2021/salesandmarketing.jpg
 featured_image: assets/images/posts/2021/salesandmarketing.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 세일즈맨이라는 단어가 요즘엔 듣기 귀해진 것 같습니다. 어렸을 때는 회사원을 세일즈맨이라고 부르나? 싶을 정도로 세일즈맨이라는 단어가 주는 힘이 참 강력하다고 느꼈습니다. 세일즈맨은 보통 영업이 주업무인 직장인을 뜻합니다. 과거 일본의 찬란했던 시절에 세일즈맨의 활약이 대단했다라는 것은 꽤나 유명한 사실이죠. 자연스럽게 일본의 접경에서 영향을 받았던 우리나라에도 세일즈맨의 위상은 대단했습니다.
