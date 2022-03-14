@@ -5,8 +5,8 @@
     <description>Digital Marketer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Mar 2022 01:19:31 +0900</pubDate>
-    <lastBuildDate>Sun, 13 Mar 2022 01:19:31 +0900</lastBuildDate>
+    <pubDate>Mon, 14 Mar 2022 09:59:43 +0900</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2022 09:59:43 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -26,9 +26,9 @@
 
 &lt;p&gt;이런 코딩과정을 디지털마케터가 직접 배워 제작하는 것은 상당히 어려운 일입니다. 하여, MBTI 테스트를 만들고 싶은 마케터께서는 &lt;b&gt;본 내용을 개발자에 전달&lt;/b&gt;하는 것으로 MBTI테스트 제작에 대한 충분한 설명이 가능할 것입니다.&lt;/p&gt;
 
-&lt;p&gt;MBTI 테스트의 와이어프레임은 &lt;a href=&quot;https://osoma.kr&quot; target=&quot;_blank&quot;&gt;오픈소스마케팅&lt;/a&gt;의 &lt;a href=&quot;http://nohze.com&quot; target=&quot;_blank&quot;&gt;노지혜 컨설턴트&lt;/a&gt;님이 디지털마케팅 컨설팅 강의 용으로 제작하셨습니다.&lt;/p&gt;
+&lt;p&gt;MBTI 테스트의 프로토타입은 &lt;a href=&quot;https://osoma.kr&quot; target=&quot;_blank&quot;&gt;오픈소스마케팅&lt;/a&gt;의 &lt;a href=&quot;http://nohze.com&quot; target=&quot;_blank&quot;&gt;노지혜 컨설턴트&lt;/a&gt;님이 디지털마케팅 컨설팅 강의 용으로 제작하셨습니다.&lt;/p&gt;
 
-&lt;h3 id=&quot;mbti-테스트-와이어프레임-구축&quot;&gt;MBTI 테스트 와이어프레임 구축&lt;/h3&gt;
+&lt;h3 id=&quot;mbti-테스트-프로토타입-구축&quot;&gt;MBTI 테스트 프로토타입 구축&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;MBTI 테스트는 HTML, CSS, Javascript로 제작하였습니다.&lt;/li&gt;
@@ -113,11 +113,11 @@
 &lt;h3 id=&quot;mbti테스트의-css-내용입니다&quot;&gt;MBTI테스트의 CSS 내용입니다.&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;와이어프레임의 css는 아래와 같습니다.&lt;/li&gt;
+  &lt;li&gt;프로토타입의 css는 아래와 같습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;jpeg&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;#main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -144,22 +144,17 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;위 css내용을 바탕으로 리소스와 텍스트, 스타일코드 등을 자유롭게 변경하여 나만의 MBTI테스트를 디자인합니다.&lt;/p&gt;
+&lt;p&gt;위 css내용을 바탕으로 리소스와 텍스트, 스타일코드 등을 자유롭게 변경하여 나만의 MBTI테스트를 디자인합니다.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;http://hongtani.com/assets/images/posts/2021/cookierun.png&quot; alt=&quot;쿠키런테스트화면&quot; title=&quot;쿠키런테스트화면&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;코딩에 생소한 분들에게는 다소 당황스러운 전개일 수 있으나, 웹디자이너와 개발자가 와이어프레임과 함께 완성된 테스트이미지를 본다면 쉽게 이해할 수 있을 것입니다. 응용과 창작은 프로젝트를 담당하는 팀(혹은 개인)의 몫입니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://hongtani.com/assets/images/posts/2021/cookierun.jpg&quot; alt=&quot;쿠키런테스트화면&quot; title=&quot;쿠키런테스트화면&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;코딩에 생소한 분들에게는 다소 당황스러운 전개일 수 있으나, 웹디자이너와 개발자가 프토로타입과 함께 완성된 테스트이미지를 본다면 쉽게 이해할 수 있을 것입니다. 응용과 창작은 프로젝트를 담당하는 팀(혹은 개인)의 몫입니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;mbti테스트의-javascript-내용입니다&quot;&gt;MBTI테스트의 Javascript 내용입니다.&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;MBTI테스트에서 사용된 주요 Javascript 코드은 아래와 같습니다.&lt;/p&gt;
+    &lt;p&gt;MBTI테스트에서 사용된 주요 js 코드는 아래와 같습니다.&lt;/p&gt;
 
     &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//테스트 시작함수&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;testStart&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
@@ -244,7 +239,7 @@
     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ㅋㅋㅋㅋ헐~~~ 웃겨ㅋㅋ &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;나도 나중에 써먹어야지ㅋㅋㅋㅋ (기억한다)&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;신이 발끈한게 왜 신발끈...ㅋ &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;썰렁하네 하고 넘어간다&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:{&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;번까지 제작&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//12번까지 작성합니다.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;p&gt;질문페이지에서 답을 선택할 때마다 문제 번호가 하나씩 넘어가며 “title”, “description”, “type”, “A”, “B”의 내용이 바뀌어 나타납니다.&lt;/p&gt;
@@ -264,24 +259,24 @@
     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;cardlike&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;석류맛쿠키1.png&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;explain2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;혼자만의 시간이 필요한 당신을 편안하게 배려하는 슈크림맛쿠키(ESFJ)는 함께 하면 좋을 쿠키입니다. &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;그.러.나 넘치는 에너지와 과한 표현이 주특기인 팬케이크맛쿠키(ESFP)와는 거리를 두는 것이 당신을 편안하게 합니다.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
- &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;12가지 MBTI유형 모두 작성합니다&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;// 12가지 MBTI유형 모두 작성합니다&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
     &lt;p&gt;결과페이지에서 최종 산출된 MBTI유형에 따라 “mbti”, “explain”, “result_img”, “cardlike”, “explain2”에 맞는 내용을 불러와 결과페이지에서 노출시킵니다.&lt;/p&gt;
 
     &lt;h2 id=&quot;마무리&quot;&gt;마무리&lt;/h2&gt;
 
-    &lt;p&gt;아무래도 MBTI테스트 포스팅 중 마지막인 개발편은 디지털마케터에게는 많이 복잡하고 생소한 내용일 것입니다. 하지만 위 작성된 내용을 숙지하면, 대략 어떤 느낌으로 MBTI테스트가 구성되고 동작하는지 원리 정도는 충분히 이해하실 수 있습니다. 또한, 대부분의 개발자분들은 위 공개된 코드만 봐도 쉽게 MBTI테스트를 만드실 수 있을만큼 쉽고 간단한 코드입니다.&lt;/p&gt;
+    &lt;p&gt;아무래도 MBTI테스트 포스팅 중 마지막인 개발편은 디지털마케터에게는 많이 복잡하고 생소한 내용일 것입니다. 하지만 위 작성된 내용을 숙지하면, 대략 어떤 느낌으로 MBTI테스트가 구성되고 동작하는지 원리 정도는 충분히 이해하실 수 있습니다. 또한, 대부분의 개발자분들은 위 공개된 코드만 봐도 쉽게 MBTI테스트를 만드실 수 있을만큼 쉽고 간단한 코드입니다. 개발자와 본 포스팅을 바탕으로 협업하시면 좀 더 쉽게 테스트를 만들 수 있습니다.&lt;/p&gt;
 
-    &lt;p&gt;디지털마케터는 단순히 매체를 운영하고 캠페인 성과를 숫자로만 관리하다보면 언젠가 한계에 부딪히게 됩니다. 비즈니스와 서비스를 아우르는 시야를 갖고 디지털마케팅에 임하면 퍼포먼스캠페인 숫자 뒤에 숨은 다양한 성공이유와 실패원인을 찾아내고 생산성을 갖춘 고민을 할 수 있습니다.&lt;/p&gt;
+    &lt;p&gt;디지털마케터는 단순히 매체를 운영하고 캠페인 성과를 숫자로만 관리하다보면 언젠가 한계에 부딪히게 됩니다. 이런 1인 프로젝트를 통해 비즈니스와 서비스에 대한 통찰력을 기르고 경험을 바탕으로 디지털마케팅에 임하면 퍼포먼스캠페인 성과의 숫자 뒤에 숨은 다양한 성공이유와 실패원인을 찾아내고 생산성을 갖춘 개선고민을 할 수 있습니다.&lt;/p&gt;
 
-    &lt;p&gt;오픈소스마케팅에서는 디지털마케터가 보다 깊이있는 인사이트와 실무능력을 갖출 수 있는 더 많은 정보를 제공하고 있습니다. 오픈소스마케팅 블로그에서도 유익한 정보를 많이 찾아보세요.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://osoma.kr&quot; target=&quot;_blank&quot;&gt;오픈소스마케팅&lt;/a&gt;에서는 디지털마케터가 보다 깊이있는 인사이트와 실무능력을 갖출 수 있는 더 많은 정보를 제공하고 있습니다. 오픈소스마케팅 블로그에서도 유익한 정보를 많이 찾아보세요.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;바로 이동하기&lt;/strong&gt; 👉 &lt;a href=&quot;https://osoma.kr&quot; target=&quot;_blank&quot;&gt;오픈소스마케팅 공식 블로그&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 13 Mar 2022 00:00:00 +0900</pubDate>
+        <pubDate>Sat, 12 Mar 2022 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/MBTI-test-3</link>
         <guid isPermaLink="true">http://localhost:4000/MBTI-test-3</guid>
         
