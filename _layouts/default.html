@@ -12,6 +12,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P2PVWVJ');</script>
     <!-- End Google Tag Manager -->
+        <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
     <!-- SEO Tag -->
       <meta name="twitter:card" content="summary_large_image" />
       {% if page.title %}
