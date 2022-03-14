@@ -42,14 +42,14 @@ post_class: post-template
                   function sendLink(){
                     var _title = "{{ page.title }}";
                     var _desc = document.head.querySelector("[property='og:description']").content;
-                    var _img = "{{ page.featured_image }}";
+                    var _img = "{{ site.baseurl }}{{ page.featured_image }}";
 
                     Kakao.Link.sendCustom({
                       templateId: 63753,   // 복사해둔 템플릿 ID
                       templateArgs: {
                         title: _title,
                         description: _desc,
-                        imageUrl: _img,
+                        image_url: _img,
                         url : "{{ page.url }}",
                       },
                     });
