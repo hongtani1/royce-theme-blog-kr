@@ -36,56 +36,44 @@ post_class: post-template
         <footer class="post-footer">
             <div class="post-share">
               <span class="post-share-title">공유하기:</span>
-              <a href="" id="copy_btn" class="postshare" onclick="clip(); return false;"><img class="sharepost" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
-              <a class="postshare" id="kakao-link-btn""><img class="sharepost" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
-                <a target="_blank" class="postshare" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
-                <a target="_blank" class="postshare" href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
-            </div><!-- .share-post -->
-            <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-            <script>
-                Kakao.init('ef43ad5f94d27bb87810899097e82c0d');   // 아까 복사해둔 JavaScript 키
-                Kakao.isInitialized();
+              <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+              <script>
+                  Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                  function sendLink(){
+                    var _title = "{{ page.title }}";
+                    var _desc = document.head.querySelector('.post-content').textContent;
+                    var _img = "{{ site.url }}{{ page.featured_image }}";
 
-                var kakaoShare = function(){
-                  var title = document.querySelector('.post-title').textContent;
-                  var desc = document.querySelector('.post-content').textContent;
-
-                Kakao.Link.sendDefault({
-                  objectType: 'feed',
-                  content: {
-                    title: title,
-                    description: desc,
-                    imageUrl: "{{ site.url }}{{ page.featured_image }}",
-                    link: {
-                      mobileWebUrl: "{{ site.url }}{{ page.url }}",
-                      webUrl: "{{ site.url }}{{ page.url }}",
-                    },
-                  },
-                  buttons: [
-                    {
-                      title: '바로가기 ',
-                      link: {
-                        mobileWebUrl: "{{ site.url }}{{ page.url }}",
-                        webUrl: "{{ site.url }}{{ page.url }}",
+                    Kakao.Link.sendCustom({
+                      templateId: 63753,   // 복사해둔 템플릿 ID
+                      templateArgs: {
+                        title: _title,
+                        description: _desc,
+                        image_url: _img,
+                        url : "{{ page.url }}",
                       },
-                    },
-                  ]
-                });
-}
-                document.querySelector('#kakao-link-btn').addEventListener('click', kakaoShare);
+                    });
+                  }
+                  function clip(){
+                    var url = '';
+                    var textarea = document.createElement("textarea");
+                    document.body.appendChild(textarea);
+                    url = window.document.location.href;
+                    textarea.value = url;
+                    textarea.select();
+                    document.execCommand("copy");
+                    document.body.removeChild(textarea);
+                    alert("링크가 복사되었습니다.")
+                  }
 
-                function clip(){
-                  var url = '';
-                  var textarea = document.createElement("textarea");
-                  document.body.appendChild(textarea);
-                  url = window.document.location.href;
-                  textarea.value = url;
-                  textarea.select();
-                  document.execCommand("copy");
-                  document.body.removeChild(textarea);
-                  alert("링크가 복사되었습니다.")
-                }
-            </script>
+              </script>
+              <a href="" id="copy_btn" class="postshare" onclick="clip(); return false;"><img class="sharepost" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
+              <a class="postshare" id="kakao-link-btn" href="javascript:sendLink()"><img class="sharepost" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
+                <a target="_blank" class="postshare"
+                    href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
+                <a target="_blank" class="postshare"
+                    href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
+            </div><!-- .share-post -->
         </footer>
         {% include disqus.html %}
     </article>
