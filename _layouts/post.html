@@ -45,7 +45,7 @@ post_class: post-template
             </div><!-- .share-post -->
             <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
             <script>
-                Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                Kakao.init('ef43ad5f94d27bb87810899097e82c0d');   // 아까 복사해둔 JavaScript 키
                 Kakao.isInitialized();
 
                 var kakaoShare = function(){
@@ -62,16 +62,16 @@ post_class: post-template
                     imageUrl:
                       imgUrl,
                     link: {
-                      mobileWebUrl: "{{ site.baseurl }}{{ page.url }}",
-                      webUrl: "{{ site.baseurl }}{{ page.url }}",
+                      mobileWebUrl: "{{ site.url }}{{ page.url }}",
+                      webUrl: "{{ site.url }}{{ page.url }}",
                     },
                   },
                   buttons: [
                     {
                       title: '바로가기 ',
                       link: {
-                        mobileWebUrl: "{{ site.baseurl }}{{ page.url }}",
-                        webUrl: "{{ site.baseurl }}{{ page.url }}",
+                        mobileWebUrl: "{{ site.url }}{{ page.url }}",
+                        webUrl: "{{ site.url }}{{ page.url }}",
                       },
                     },
                   ]
