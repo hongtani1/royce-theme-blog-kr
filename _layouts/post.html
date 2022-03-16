@@ -42,9 +42,9 @@ post_class: post-template
                   Kakao.isInitialized();
 
                   var kakaoShare = function(){
-                    var title = document.querySelector('#post-title').textContent;
-                    var desc = document.querySelector('#explain').textContent;
-                    var imgUrl = document.querySelector('#img').src;
+                    var title = document.querySelector('.post-title').textContent;
+                    var desc = document.querySelector('.post-content').textContent;
+                    var imgUrl = document.querySelector('.post-thumbnail').src;
                   }
 
                   Kakao.Link.sendDefault({
