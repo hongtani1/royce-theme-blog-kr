@@ -52,7 +52,6 @@ post_class: post-template
                   var title = document.querySelector('.post-title').textContent;
                   var desc = document.querySelector('.post-content').textContent;
                   var imgUrl = document.querySelector('.post-thumbnail').src;
-                }
 
                 Kakao.Link.sendDefault({
                   objectType: 'feed',
@@ -76,7 +75,7 @@ post_class: post-template
                     },
                   ]
                 });
-
+}
                 document.querySelector('#kakao-link-btn').addEventListener('click', kakaoShare);
 
                 function clip(){
