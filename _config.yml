@@ -39,6 +39,8 @@ navigation:
     url: /
   - text: About
     url: /about
+  - text: Tags
+    url: /tags
   - text: Blog Guide
     url: /blog-guide
   - text: Contact Me
