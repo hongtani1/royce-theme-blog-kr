@@ -36,55 +36,6 @@ post_class: post-template
         <footer class="post-footer">
             <div class="post-share">
               <span class="post-share-title">공유하기:</span>
-              <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
-              <script>
-                  Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
-                  Kakao.isInitialized();
-
-                  var kakaoShare = function(){
-                    var title = document.querySelector('.post-title').textContent;
-                    var desc = document.querySelector('.post-content').textContent;
-                    var imgUrl = document.querySelector('.post-thumbnail').src;
-                  }
-
-                  Kakao.Link.sendDefault({
-                    objectType: 'feed',
-                    content: {
-                      title: title,
-                      description: desc,
-                      imageUrl:
-                        imgUrl,
-                      link: {
-                        mobileWebUrl: "{{ page.url }}",
-                        webUrl: "{{ page.url }}",
-                      },
-                    },
-                    buttons: [
-                      {
-                        title: '바로가기 ',
-                        link: {
-                          mobileWebUrl: "{{ page.url }}",
-                          webUrl: "{{ page.url }}",
-                        },
-                      },
-                    ]
-                  });
-
-                  document.querySelector('#kakao-link-btn').addEventListener('click', kakaoShare);
-
-                  function clip(){
-                    var url = '';
-                    var textarea = document.createElement("textarea");
-                    document.body.appendChild(textarea);
-                    url = window.document.location.href;
-                    textarea.value = url;
-                    textarea.select();
-                    document.execCommand("copy");
-                    document.body.removeChild(textarea);
-                    alert("링크가 복사되었습니다.")
-                  }
-
-              </script>
               <a href="" id="copy_btn" class="postshare" onclick="clip(); return false;"><img class="sharepost" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
               <a class="postshare" id="kakao-link-btn" href="javascript:sendLink()"><img class="sharepost" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
                 <a target="_blank" class="postshare"
@@ -92,6 +43,54 @@ post_class: post-template
                 <a target="_blank" class="postshare"
                     href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
             </div><!-- .share-post -->
+            <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+            <script>
+                Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+                Kakao.isInitialized();
+
+                var kakaoShare = function(){
+                  var title = document.querySelector('.post-title').textContent;
+                  var desc = document.querySelector('.post-content').textContent;
+                  var imgUrl = document.querySelector('.post-thumbnail').src;
+                }
+
+                Kakao.Link.sendDefault({
+                  objectType: 'feed',
+                  content: {
+                    title: title,
+                    description: desc,
+                    imageUrl:
+                      imgUrl,
+                    link: {
+                      mobileWebUrl: "{{ site.baseurl }}{{ page.url }}",
+                      webUrl: "{{ site.baseurl }}{{ page.url }}",
+                    },
+                  },
+                  buttons: [
+                    {
+                      title: '바로가기 ',
+                      link: {
+                        mobileWebUrl: "{{ site.baseurl }}{{ page.url }}",
+                        webUrl: "{{ site.baseurl }}{{ page.url }}",
+                      },
+                    },
+                  ]
+                });
+
+                document.querySelector('#kakao-link-btn').addEventListener('click', kakaoShare);
+
+                function clip(){
+                  var url = '';
+                  var textarea = document.createElement("textarea");
+                  document.body.appendChild(textarea);
+                  url = window.document.location.href;
+                  textarea.value = url;
+                  textarea.select();
+                  document.execCommand("copy");
+                  document.body.removeChild(textarea);
+                  alert("링크가 복사되었습니다.")
+                }
+            </script>
         </footer>
         {% include disqus.html %}
     </article>
