@@ -41,7 +41,7 @@ post_class: post-template
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
                   function sendLink(){
                     var _title = "{{ page.title }}";
-                    var _img = "{{ site.url }}{{ page.featured_image }}";
+                    var _img = "{{ site.url }}/{{ page.featured_image }}";
 
                     Kakao.Link.sendCustom({
                       templateId: 63753,   // 복사해둔 템플릿 ID
