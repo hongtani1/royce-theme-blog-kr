@@ -38,10 +38,8 @@ post_class: post-template
               <span class="post-share-title">공유하기:</span>
               <a href="" id="copy_btn" class="postshare" onclick="clip(); return false;"><img class="sharepost" src="/assets/images/copy.png" alt="링크복사"> 링크복사</a>
               <a class="postshare" id="kakao-link-btn""><img class="sharepost" src="/assets/images/kakao.png" alt="카톡공유"> 카카오톡</a>
-                <a target="_blank" class="postshare"
-                    href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
-                <a target="_blank" class="postshare"
-                    href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
+                <a target="_blank" class="postshare" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/facebook.png" alt="페북공유"> 페이스북</a>
+                <a target="_blank" class="postshare" href="https://twitter.com/share?text={{ page.title | url_encode }}&amp;url={{ site.production_url }}{{ page.url | remove_first: '/' }}"><img class="sharepost" src="/assets/images/twitter.png" alt="트윗공유"> 트위터</a>
             </div><!-- .share-post -->
             <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
             <script>
@@ -57,7 +55,7 @@ post_class: post-template
                   content: {
                     title: title,
                     description: desc,
-                    imageUrl: "{{ site.url }}{{ post.featured_image }}",
+                    imageUrl: "{{ site.url }}{{ page.featured_image }}",
                     link: {
                       mobileWebUrl: "{{ site.url }}{{ page.url }}",
                       webUrl: "{{ site.url }}{{ page.url }}",
