@@ -51,15 +51,13 @@ post_class: post-template
                 var kakaoShare = function(){
                   var title = document.querySelector('.post-title').textContent;
                   var desc = document.querySelector('.post-content').textContent;
-                  var imgUrl = document.querySelector('.post-thumbnail').src;
 
                 Kakao.Link.sendDefault({
                   objectType: 'feed',
                   content: {
                     title: title,
                     description: desc,
-                    imageUrl:
-                      imgUrl,
+                    imageUrl: "{{ site.url }}{{ post.featured_image }}",
                     link: {
                       mobileWebUrl: "{{ site.url }}{{ page.url }}",
                       webUrl: "{{ site.url }}{{ page.url }}",
