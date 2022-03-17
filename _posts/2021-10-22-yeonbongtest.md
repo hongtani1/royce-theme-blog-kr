@@ -4,8 +4,8 @@ title: '바이럴 테스트 만들기 - 개요'
 tags: [마케팅, 기획, AARRR, GTM]
 featured_image_thumbnail: assets/images/posts/2021/ybtest-thumb.jpg
 featured_image: assets/images/posts/2021/ybtest-thumb.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 제가 참여한 카카오톡 오픈톡방이 10개쯤 되는데, 어느 순간부터 단 한 방도 빼놓지 않고, 연봉에 대한 이야기가 나오더라구요.
 

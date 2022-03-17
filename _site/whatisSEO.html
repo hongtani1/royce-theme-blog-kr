@@ -12,6 +12,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P2PVWVJ');</script>
     <!-- End Google Tag Manager -->
+        <title>SEO는 무엇이고 어떻게 해야할까요</title>
     <!-- SEO Tag -->
       <meta name="twitter:card" content="summary_large_image" />
       
@@ -22,9 +23,9 @@
         <meta property="og:type" content="article" />
       
       
-        <meta name="description" content="Digital Marketer" />
-        <meta property="og:description" content="Digital Marketer" />
-        <meta name="twitter:description" content="Digital Marketer" />
+        <meta name="description" content="디지털마케팅에 유용한 스킬을 공유합니다" />
+        <meta property="og:description" content="디지털마케팅에 유용한 스킬을 공유합니다" />
+        <meta name="twitter:description" content="디지털마케팅에 유용한 스킬을 공유합니다" />
       
       
         <link rel="canonical" href="http://localhost:4000/whatisSEO">
@@ -89,7 +90,7 @@
                     </h1>
                     
                     
-                    <p class="site-description">Digital Marketer</p>
+                    <p class="site-description">디지털마케팅에 유용한 스킬을 공유합니다</p>
                     
                 </div><!-- .site-identity -->
                 
@@ -109,6 +110,10 @@
                         
                         
                         <li class="menu-item "><a href="/about">About</a></li>
+                        
+                        
+                        
+                        <li class="menu-item "><a href="/tags">Tags</a></li>
                         
                         
                         
@@ -218,17 +223,32 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
               <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
               <script>
                   Kakao.init("ef43ad5f94d27bb87810899097e82c0d");   // 아까 복사해둔 JavaScript 키
+
                   function sendLink(){
                     var _title = "SEO는 무엇이고 어떻게 해야할까요";
-                    var _desc = document.head.querySelector("[property='og:description']").content;
+                    var _desc = "디지털마케팅에 유용한 스킬을 공유합니다"
+                    var _img = "http://localhost:4000/assets/images/posts/2021/korea.jpg";
 
-                    Kakao.Link.sendCustom({
-                      templateId: 63753,   // 복사해둔 템플릿 ID
-                      templateArgs: {
+                    Kakao.Link.sendDefault({
+                      objectType: 'feed',
+                      content: {
                         title: _title,
                         description: _desc,
-                        url : "/whatisSEO",
+                        imageUrl: _img,
+                        link: {
+                          mobileWebUrl: 'http://localhost:4000/whatisSEO',
+                          webUrl: 'http://localhost:4000/whatisSEO',
+                        },
                       },
+                      buttons: [
+                        {
+                          title: '게시글 보기',
+                          link: {
+                            mobileWebUrl: 'http://localhost:4000/whatisSEO',
+                            webUrl: 'http://localhost:4000/whatisSEO',
+                          },
+                        },
+                      ]
                     });
                   }
                   function clip(){
@@ -331,6 +351,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             <a href='/tags/#AARRR'>AARRR</a>
             
+            <a href='/tags/#ASO'>ASO</a>
+            
             <a href='/tags/#GTM'>GTM</a>
             
             <a href='/tags/#MBTI'>MBTI</a>
@@ -344,6 +366,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             <a href='/tags/#%EA%B8%B0%ED%9A%8D'>기획</a>
             
             <a href='/tags/#%EB%A7%88%EC%BC%80%ED%8C%85'>마케팅</a>
+            
+            <a href='/tags/#%EC%95%B1%EB%A7%88%EC%BC%80%ED%8C%85'>앱마케팅</a>
             
         </div><!-- .tag-links -->
     </section><!-- .tagcloud -->

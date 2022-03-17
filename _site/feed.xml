@@ -1,13 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description>Digital Marketer</description>
+    <title>디지털마케터 Hongtani의 블로그입니다.</title>
+    <description>디지털마케팅에 유용한 스킬을 공유합니다</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Mar 2022 09:59:43 +0900</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2022 09:59:43 +0900</lastBuildDate>
+    <pubDate>Fri, 18 Mar 2022 02:17:08 +0900</pubDate>
+    <lastBuildDate>Fri, 18 Mar 2022 02:17:08 +0900</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>ASO 가이드</title>
+        <description>&lt;p&gt;ASO(App Store Optimization) 가이드&lt;/p&gt;
+
+&lt;h2 id=&quot;aso란-무엇인가요&quot;&gt;ASO란 무엇인가요?&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;ASO&lt;/strong&gt;라고 불리는 &lt;strong&gt;앱스토어 최적화&lt;/strong&gt;는 앱스토어의 검색 결과에서 더 높은 순위를 차지하도록 앱을 최적화하며, 앱 다운로드 전환율을 높이는 과정입니다. *(여기서 앱스토어는 Apple의 앱스토어 아닌 앱을 다운로드 할 수 있는 모든 스토어를 의미합니다.)&lt;/p&gt;
+
+&lt;p&gt;SEO로 불리는 검색엔진최적화와도 비슷한 면이 있지만, SEO는 Google, naver등 웹브라우저 검색엔진에서 웹사이트 구조와 사이트 아키텍처 등 웹사이트의 요소가 SERP(검색엔진 결과페이지 - Serach Engine Research Page)에 영향을 미치는 점이 ASO와 다른 점이라고 볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;간단히 말해 &lt;strong&gt;ASO는 앱 스토어용&lt;/strong&gt;이고 &lt;strong&gt;SEO는 웹사이트용&lt;/strong&gt;이라는 것이 ASO와 SEO의 주요 차이점입니다. SEO는 의심할 여지 없이 대중적이고 널리 알려진 용어입니다. 이 때문에 사람들은 ASO가 “앱용 SEO”라고 말하기도 합니다. 하지만 이 둘은 &lt;strong&gt;유사점과 몇 가지 공통된 특성&lt;/strong&gt; 을 가지고 있으며, 목표가 다른 다른 것들이고 차이점이 많이 있습니다. 우리는 &lt;strong&gt;ASO와 SEO의 고유한 특성&lt;/strong&gt;을 구별하는 방법을 아는 것이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;aso와-seo의-차이&quot;&gt;ASO와 SEO의 차이&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;비슷해보이는 ASO와 SEO에 대해 몇가지 기준을 놓고 어떤 점이 다르고 같은지 비교해보겠습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;먼저-목적goal입니다&quot;&gt;먼저, &lt;strong&gt;목적&lt;/strong&gt;(Goal)입니다.&lt;/h4&gt;
+
+&lt;p&gt;ASO의 목적은 &lt;strong&gt;더 많은 Organic app download&lt;/strong&gt;, 즉 &lt;strong&gt;사용자의 자연유입(다운로드)&lt;/strong&gt;과 &lt;strong&gt;UAC(유저 획득 비용 - User Acquisition Cost, 구글의 UAC상품과는 다릅니다.)&lt;/strong&gt;를 줄이는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;SEO의 목적은 &lt;strong&gt;더 많은 트래픽(자연유입 방문자)을 확보&lt;/strong&gt;하고, 디지털서비스를 &lt;strong&gt;성장&lt;/strong&gt;시키는데 있습니다.&lt;/p&gt;
+
+&lt;p&gt;ASO와 SEO의 목적은 &lt;strong&gt;자연유입(무료) 트래픽을 확보&lt;/strong&gt;하는 것입니다. 따라서 두 분야의 목적은 거의 동일합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;두번째-공간where입니다&quot;&gt;두번째, &lt;strong&gt;공간&lt;/strong&gt;(Where)입니다.&lt;/h4&gt;
+
+&lt;p&gt;ASO는 iOS 또는 Android 모바일 기기용 앱 스토어에서 작업이 수행됩니다. 앱 스토어로는 Apple App Store, Google Play Store, Onestore, Galaxy Store, Amazon Store, Huawei AppGallery 등 글로벌 공용 앱 스토어와 지역적 특색을 가진 로컬 앱 스토어가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;SEO는 Google, Naver, nate, yahoo 등 검색엔진과 웹브라우저에서 수행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이 둘은 모두 디지털 공간에서 작업이 수행된다는 공통점이 있지만 ASO는 앱 스토어에, SEO는 웹스토어에 초점이 맞춰지는 점이 다릅니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;모바일 앱에는 apple.com 또는 google.com에서 호스팅되는 공개 URL이 있으며, 이 URL은 모바일 웹 검색에서 검색엔진에 의해 색인이 생성되고 순위가 매겨집니다. 앱에 대해 ASO를 수행하는 것이 간접적으로 해당 앱에 대해 SEO를 수행합니다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;세번째-요소factors입니다&quot;&gt;세번째, &lt;strong&gt;요소&lt;/strong&gt;(Factors)입니다.&lt;/h4&gt;
+
+&lt;p&gt;요소는 각각 ASO와 SEO의 비주얼적인 부분과 전환율(CTR)에 영향을 미치는 요소입니다. SEO의 종류와 방법에 대해서는 이 링크를 통해 확인해주세요. &lt;a href=&quot;http://hongtani.com/SEO-uglytruth&quot; target=&quot;_blank&quot;&gt;링크 바로가기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ASO에는 On-metadata 요소과 Off-metadata 요소의 두 가지 다른 유형을 식별할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;먼저 On-metadata 요소입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;앱 이름/제목&lt;/li&gt;
+  &lt;li&gt;긴 제목/간단한 설명&lt;/li&gt;
+  &lt;li&gt;설명&lt;/li&gt;
+  &lt;li&gt;애셋 : 앱 아이콘, 스크린샷 및 비디오&lt;/li&gt;
+  &lt;li&gt;앱 현지화 작업 (글로벌 런칭 시)&lt;/li&gt;
+  &lt;li&gt;개발자 이름(GooglePlayStore)&lt;/li&gt;
+  &lt;li&gt;URL(GooglePlayStore)&lt;/li&gt;
+  &lt;li&gt;키워드 필드(AppStore)&lt;/li&gt;
+  &lt;li&gt;프로모션 텍스트 (AppStore)&lt;/li&gt;
+  &lt;li&gt;인앱 구매 이름(AppStore)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;앱스토어 검색 엔진은 앱 설명 부분은 분석하지 않으므로 100자까지 입력할 수 있는 키워드 필드와 앱 이름, 인앱 구매 표시 이름(IAP Display Name)을 중심으로 최적화할 필요가 있습니다.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Off-metadata 요소입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;다운로드&lt;/li&gt;
+  &lt;li&gt;평가 및 리뷰&lt;/li&gt;
+  &lt;li&gt;백링크 (Google Play)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;백링크는 &lt;strong&gt;다른 웹사이트나 블로그에 노출되어 사용자들이 유입되는 앱스토어 대한 링크&lt;/strong&gt; 입니다. 웹마케팅에 익숙한 분들이라면 &lt;strong&gt;Referrer&lt;/strong&gt;라고 이해하셔도 좋습니다.&lt;/p&gt;
+
+&lt;p&gt;특히, 애셋(아이콘, 스크린샷 및 비디오)의 경우 ASO와 관련하여 상당히 큰 영향을 미칩니다. 실제로 다운로드 전환율에 큰 영향을 미치기 때문에 그 중요성을 과소평가할 수 없습니다. 일반적으로 사용자가 앱을 다운로드할지 여부를 결정하는 데 매우 중요한 역할을 하므로 완전히 최적화되고 모니터링되어야 합니다. 시각적인 영향은 SEO에서 덜 중요합니다. 모든 검색 엔진 결과 페이지(SERP)에 시각적 개체가 표시되지 않기 때문에 사용자가 특정 웹사이트를 방문할지 결정하는 데 영향을 적게 미치기 때문입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;네번째-kpi목표입니다&quot;&gt;네번째, &lt;strong&gt;KPI&lt;/strong&gt;(목표)입니다.&lt;/h4&gt;
+
+&lt;p&gt;ASO가 잘 되고있는지 측정하기 위해서는 아래와 같은 KPI metric을 고려해야 합니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;키워드 순위&lt;/li&gt;
+  &lt;li&gt;상위 차트 순위&lt;/li&gt;
+  &lt;li&gt;주요 추적&lt;/li&gt;
+  &lt;li&gt;방문 전환율&lt;/li&gt;
+  &lt;li&gt;다운로드 전환율&lt;/li&gt;
+  &lt;li&gt;사용자 평가 및 리뷰&lt;/li&gt;
+  &lt;li&gt;Organic 다운로드(검색)&lt;/li&gt;
+  &lt;li&gt;Organic 다운로드(탐색/찾아보기)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이런 KPI metric을 측정하기 위해서는 비용을 지불하여 Apptweak나 AppRadar 같은 글로벌 ASO 툴을 활용할 수 있겠으나, 조건이 한정적인 경우 각각의 앱 스토어에서 제공되는 지표를 확인하여 측정할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;마지막-budget예산입니다&quot;&gt;마지막, &lt;strong&gt;Budget&lt;/strong&gt;(예산)입니다.&lt;/h4&gt;
+
+&lt;p&gt;안타깝게도 Paid-마케팅 즉, Facebook 광고, Instagram 광고, Google Ads 등을 통해 Non-Organic 다운로드가 늘어날수록  다운로드 랭킹 &lt;strong&gt;차트의 순위가 상승&lt;/strong&gt;하고, 리뷰와 평점 및 앱 사용자가 많아질수록 Organic 다운로드 역시 늘어나게 됩니다.&lt;/p&gt;
+
+&lt;p&gt;ASO와 달리 SEO는 Paid-마케팅과 무관합니다. 즉, Paid-마케팅은 웹사이트의 정보 가시성(트래픽, 평점, 리뷰, 다운로드 수 등)에 영향을 미치지 않습니다. 사이트가 구조화되어 있는지, 사용자 친화적인 형태로 제작되었는지가 검색엔진 로봇에 의해 검수됩니다.&lt;/p&gt;
+
+&lt;p&gt;몇 년 전 스토어에 퍼블리싱된 앱이 많지 않았을 때와 달리 Paid-마케팅 없이 모바일 앱의 순위를 높게 자리매김하는 것은 매우 어려워졌습니다. 어느 정도 마케팅 볼륨을 키우고 싶다면 ASO를 위해서라도 Paid-마케팅은 고려되어야 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;마무리&quot;&gt;마무리&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이렇게 ASO와 SEO가 다양한 이유와 서로 다른 상황에 맞게 만들어졌다는 것을 확인했습니다. ASO나 SEO는 요술지팡이가 아니기에 ASO와 SEO 모두 효과를 거두기 위해서는 시간과 노력 그리고 알맞는 마케팅 플랜이 중요하다는 것을 기억해야 합니다. 또한, ASO와 SEO는 상호 보완적일 수 있으며, 실제로 &lt;strong&gt;SEO를 ASO 전략에 결합하는 것도 가능합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ASO에 대한 개념은 이정도로 정리하고, 이후에는 ASO에 적용할 수 있는 팁과 다양한 응용사례를 공개하여 차별화 된 ASO를 할 수 있는 방법에 대해 알아보겠습니다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Mar 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/about-ASO</link>
+        <guid isPermaLink="true">http://localhost:4000/about-ASO</guid>
+        
+        <category>앱마케팅</category>
+        
+        <category>ASO</category>
+        
+        
+      </item>
     
       <item>
         <title>MBTI 테스트 제작하기 -3. 개발</title>

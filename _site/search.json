@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "ASO 가이드",
+      "category" : "",
+      "tags"     : "앱마케팅, ASO",
+      "url"      : "/about-ASO",
+      "date"     : "March 18, 2022"
+    } ,
+  
+    {
       "title"    : "MBTI 테스트 제작하기 -3. 개발",
       "category" : "",
       "tags"     : "MBTI, 개발",

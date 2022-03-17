@@ -7,7 +7,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "디지털마케터 Hongtani의 블로그입니다.<br><a href="https://hongtani.com/tags/index.html">여길 눌러 <b>한 눈에</b> 게시글을 찾아보세요."</a>
+  greetings: "디지털마케터 Hongtani의 블로그입니다.<br><b>Tags</b> 메뉴를 이용하시면 편리합니다."
 favicon: 'assets/images/favicon.ico'
 baseurl:
 production_url: https://hongtani.com/
