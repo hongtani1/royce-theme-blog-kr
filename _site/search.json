@@ -1,11 +1,19 @@
 [
   
     {
+      "title"    : "마개이너 스터디 후기",
+      "category" : "",
+      "tags"     : "마개이너, 디지털마케팅",
+      "url"      : "/about-magaeiner",
+      "date"     : "April 24, 2022"
+    } ,
+  
+    {
       "title"    : "ASO 가이드",
       "category" : "",
       "tags"     : "앱마케팅, ASO",
       "url"      : "/about-ASO",
-      "date"     : "March 18, 2022"
+      "date"     : "March 17, 2022"
     } ,
   
     {
